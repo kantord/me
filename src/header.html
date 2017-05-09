@@ -99,7 +99,8 @@
         font-family: 'Taviraj', serif;
     }
 
-    div {
+    body>div {
+        position: relative;
         min-height: 4em;
     }
 
@@ -118,8 +119,133 @@
         margin: 1em;
     }
 
-    h2 + p {
+    h2 + * {
         margin-left: 20em;
+    }
+
+    .timeline {
+        position: relative;
+    }
+
+    .timeline:before {
+        content: '';
+        position: absolute;
+        display: block;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        box-shadow: 0 0 16px 4px #e0f3f8 inset;
+        z-index: 1000000000;
+    }
+
+    .timeline>ul {
+        border-left: .125em dashed #5cc5b6;
+        margin: 3em;
+        padding: 1em 2em;
+        position: relative;
+        margin-left: 10em;
+    }
+    
+    .timeline>ul>li {
+        margin-bottom: 3em;
+        background: rgba(255,255,255,.5);
+        padding: .8em 1.5em;
+        position: relative;
+    }
+
+    .timeline>ul>li>p {
+        margin: 0;
+    }
+
+    .timeline>ul>li>p:first-child {
+        font-weight: bold;
+    }
+
+    .timeline>ul>li>ul>li {
+        font-weight: normal;
+        position: relative;
+    }
+
+    .timeline .time {
+        position: absolute;
+        top: 0;
+        left: -34px;
+        border-left: .125rem solid #5cc5b6;
+        height: 100%;
+        font-weight: normal;
+        font-size: .7em;
+        text-align: right;
+    }
+
+    .timeline>ul>li>ul>li:before {
+        position: absolute;
+        top: 0;
+        content: '';
+        width: 6px;
+        height: 6px;
+        left: -3.7em;
+        display: block;
+        border-radius: 50%;
+        background: #5cc5b6;
+
+    }
+
+    .timeline .time:before,
+    .timeline .time:after {
+        position: absolute;
+        top: 0;
+        content: '';
+        width: 10px;
+        height: 10px;
+        left: -8px;
+        border: 2px solid #5cc5b6;
+        display: block;
+        border-radius: 50%;
+        background: white;
+    }
+
+    .timeline .time:after {
+        top: 100%;
+    }
+
+    .timeline .time span {
+        position: absolute;
+        left: -8em;
+        top: 0;
+    }
+
+    .time .end {
+        top: 100% !important;
+    }
+
+    .progress {
+        display: inline-block;
+        background: rgba(215, 48, 39, 0.05);
+        width: 10em;
+        height: .8em;
+        border-radius: 1em;
+        overflow: hidden;
+        background-clip: border-box;
+        clip-path: inset(0 0 0 0 round 100px);
+    }
+
+    .progress>* {
+        display: inline-block;
+        height: 1em;
+        background: #5cc5b6;
+    }
+
+    td {
+        padding: .3em 1.5em;
+    }
+
+    tr.sep {
+        border-bottom: .8em solid #e0f3f8;
+    }
+
+    table {
+        background: rgba(255,255,255,.5);
     }
 
     /* Basic colors */

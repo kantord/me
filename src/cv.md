@@ -31,9 +31,18 @@ Elit eum dolorem corrupti doloremque saepe? Praesentium eligendi dolorem ut eius
 
 <div>
 
-## Ipsum fuga.
-Elit fugit expedita obcaecati dignissimos cumque ratione quae. Illo est amet voluptatum delectus cupiditate quidem natus culpa. Voluptatibus nihil dolores reprehenderit optio molestias dignissimos quam reprehenderit, fugiat, aut quaerat.
-Elit eum dolorem corrupti doloremque saepe? Praesentium eligendi dolorem ut eius eveniet harum recusandae. Nemo obcaecati natus dolorum possimus quam. Tempora ad ex corporis rerum alias. Totam illum modi soluta magnam praesentium. Perferendis sequi laboriosam perferendis illum omnis molestias dignissimos. Aliquid eius obcaecati minus voluptatum ducimus aperiam. Enim vel perferendis repudiandae incidunt eveniet similique minima iusto quas assumenda architecto expedita. Dolore culpa laborum dolor ipsum nihil. Ab.
+## Employment history
+<div class="timeline">
+
+- Mito <span class=time><span>Present</span><span class=end>2016 Sep</span></span>
+
+- Maven 7 <span class=time><span>2016 Sep</span><span class=end>2013 Mar</span></span>
+
+    - OrgMapper
+    - Diktiolabs
+    - FirmNetOnline
+
+</div>
 
 </div>
 
@@ -41,9 +50,41 @@ Elit eum dolorem corrupti doloremque saepe? Praesentium eligendi dolorem ut eius
 
 <div>
 
-## Ipsum fuga.
-Elit fugit expedita obcaecati dignissimos cumque ratione quae. Illo est amet voluptatum delectus cupiditate quidem natus culpa. Voluptatibus nihil dolores reprehenderit optio molestias dignissimos quam reprehenderit, fugiat, aut quaerat.
-Elit eum dolorem corrupti doloremque saepe? Praesentium eligendi dolorem ut eius eveniet harum recusandae. Nemo obcaecati natus dolorum possimus quam. Tempora ad ex corporis rerum alias. Totam illum modi soluta magnam praesentium. Perferendis sequi laboriosam perferendis illum omnis molestias dignissimos. Aliquid eius obcaecati minus voluptatum ducimus aperiam. Enim vel perferendis repudiandae incidunt eveniet similique minima iusto quas assumenda architecto expedita. Dolore culpa laborum dolor ipsum nihil. Ab.
+## Language background
+<div>
+    <table>
+        <tr>
+            <td><div class="progress"><div style="width:100%"></div></div></td>
+            <td>Hungarian</td>
+            <td>Native proficiency</td>
+        </tr>
+        <tr class="sep">
+            <td><div class="progress"><div style="width:90%"></div></div></td>
+            <td>English</td>
+            <td>Professional proficiency</td>
+        </tr>
+        <tr>
+            <td><div class="progress"><div style="width:60%"></div></div></td>
+            <td>Portuguese</td>
+            <td>Elementary proficiency</td>
+        </tr>
+        <tr>
+            <td><div class="progress"><div style="width:40%"></div></div></td>
+            <td>Spanish</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><div class="progress"><div style="width:20%"></div></div></td>
+            <td>Catalan</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><div class="progress"><div style="width:10%"></div></div></td>
+            <td>German</td>
+            <td></td>
+        </tr>
+    </table>
+</div>
 
 </div>
 
