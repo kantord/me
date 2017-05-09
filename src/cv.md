@@ -36,11 +36,21 @@ Elit eum dolorem corrupti doloremque saepe? Praesentium eligendi dolorem ut eius
 
 - Mito <span class=time><span>Present</span><span class=end>2016 Sep</span></span>
 
+    Data visualizaton and ETL using Python and Chartio
+
 - Maven 7 <span class=time><span>2016 Sep</span><span class=end>2013 Mar</span></span>
 
     - OrgMapper
+
+        Frontend and backend work using Django and Angular
+
     - Diktiolabs
+
+        Data collection, data analysis using Python and Selenium; web development
+
     - FirmNetOnline
+        
+        Frontend and backend work using Django and jQuery
 
 </div>
 
