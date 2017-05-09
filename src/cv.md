@@ -1,14 +1,19 @@
-# Curriculum Vitae - Dániel Kántor
+# Dániel Kántor
 
 - <img src="./003-cityscape.svg" alt="" class=icon> Budapest-based
 - <img src="./002-browser.svg" alt="" class=icon> Full stack developer
 - <img src="./001-language.svg" alt="" class=icon> Language lover
 - <img src="./books.svg" alt="" class=icon> MOOC junkie
 
-Ipsum saepe deserunt tempora odio laborum. Doloribus hic laudantium consectetur animi sapiente quisquam placeat fuga.
-Sit dolorum illum quam eveniet vel maiores? Molestias blanditiis consequuntur soluta accusantium officiis qui sequi totam consequatur nostrum. Ullam excepturi accusantium deserunt optio quaerat sint debitis? Officia voluptate modi odit aliquid recusandae est dolorum! Quis excepturi unde maxime consequatur error beatae! Modi velit architecto voluptas.
+<div class=alt>
 
-Adipisicing quia laborum unde rem consectetur ipsum. Itaque voluptas temporibus?
+*Full name*: Dániel Kántor
+*Email*: cv@daniel-kantor.com
+*Location*: Budapest
+*Date of Birth*: 1993-05-28
+
+
+</div>
 
 <div>
 
