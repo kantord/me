@@ -1,5 +1,7 @@
 <html>
 
+<link href="https://fonts.googleapis.com/css?family=Nunito|Taviraj:700" rel="stylesheet">
+
 <style>
     /* Reset */
     /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -61,6 +63,30 @@
         max-width: 900px;
         margin: 2em auto;
         box-shadow: 2px 3px 10px rgba(0,0,0,.1);
+        padding-bottom: 1em;
+        font-family: 'Nunito', monospace;
+        line-height: 1.5;
+    }
+
+    h1 + ul {
+        text-align: center;
+        margin: 1em;
+        margin-bottom: 4em;
+    }
+
+    h1 + ul li {
+        display: inline-block;
+        text-align: center;
+        font-family: 'Taviraj', serif;
+        font-weight: bold;
+        font-size: 1.1em;
+    }
+
+    .icon {
+        width: 8em;
+        height: 8em;
+        margin: 2em;
+        display: block;
     }
 
     h1 {
@@ -68,17 +94,24 @@
         font-size: 2.5em;
         padding: 2em;
         background: #5cc5b6;
+        font-weight: bold;
+        color: white;
+        font-family: 'Taviraj', serif;
+    }
+
+    div {
+        min-height: 4em;
     }
 
     h2 {
-        font-size: 1.5em;
+        font-size: 1.3em;
         float: left;
-        width: 6.5em;
-        margin: .666666666666666666em;
-        padding: .3em;
+        width: 14em;
         position: sticky;
         top: 0;
         text-align: right;
+        font-family: 'Taviraj', serif;
+        font-weight: bold;
     }
 
     p {
@@ -86,7 +119,7 @@
     }
 
     h2 + p {
-        margin-left: 13em;
+        margin-left: 20em;
     }
 
     /* Basic colors */

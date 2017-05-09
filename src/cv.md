@@ -1,5 +1,9 @@
 # Curriculum Vitae - Dániel Kántor
 
+- <img src="./001-language.svg" alt="" class=icon> Language lover
+- <img src="./002-browser.svg" alt="" class=icon> Full stack developer
+- <img src="./003-cityscape.svg" alt="" class=icon> Budapest-based
+
 Ipsum saepe deserunt tempora odio laborum. Doloribus hic laudantium consectetur animi sapiente quisquam placeat fuga.
 Sit dolorum illum quam eveniet vel maiores? Molestias blanditiis consequuntur soluta accusantium officiis qui sequi totam consequatur nostrum. Ullam excepturi accusantium deserunt optio quaerat sint debitis? Officia voluptate modi odit aliquid recusandae est dolorum! Quis excepturi unde maxime consequatur error beatae! Modi velit architecto voluptas.
 
@@ -124,4 +128,8 @@ Elit eum dolorem corrupti doloremque saepe? Praesentium eligendi dolorem ut eius
 </div>
 
 
+Attributions (in order of appearance)
+- designed by Freepik from Flaticon
+- designed by Vectors Market from Flaticon
+- designed by Popcorn Arts from Flaticon
 
