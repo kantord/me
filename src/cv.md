@@ -12,26 +12,6 @@ Adipisicing quia laborum unde rem consectetur ipsum. Itaque voluptas temporibus?
 
 <div>
 
-## Ipsum fuga.
-Elit fugit expedita obcaecati dignissimos cumque ratione quae. Illo est amet voluptatum delectus cupiditate quidem natus culpa. Voluptatibus nihil dolores reprehenderit optio molestias dignissimos quam reprehenderit, fugiat, aut quaerat.
-Elit eum dolorem corrupti doloremque saepe? Praesentium eligendi dolorem ut eius eveniet harum recusandae. Nemo obcaecati natus dolorum possimus quam. Tempora ad ex corporis rerum alias. Totam illum modi soluta magnam praesentium. Perferendis sequi laboriosam perferendis illum omnis molestias dignissimos. Aliquid eius obcaecati minus voluptatum ducimus aperiam. Enim vel perferendis repudiandae incidunt eveniet similique minima iusto quas assumenda architecto expedita. Dolore culpa laborum dolor ipsum nihil. Ab.
-
-</div>
-
-
-
-<div>
-
-## Ipsum fuga.
-Elit fugit expedita obcaecati dignissimos cumque ratione quae. Illo est amet voluptatum delectus cupiditate quidem natus culpa. Voluptatibus nihil dolores reprehenderit optio molestias dignissimos quam reprehenderit, fugiat, aut quaerat.
-Elit eum dolorem corrupti doloremque saepe? Praesentium eligendi dolorem ut eius eveniet harum recusandae. Nemo obcaecati natus dolorum possimus quam. Tempora ad ex corporis rerum alias. Totam illum modi soluta magnam praesentium. Perferendis sequi laboriosam perferendis illum omnis molestias dignissimos. Aliquid eius obcaecati minus voluptatum ducimus aperiam. Enim vel perferendis repudiandae incidunt eveniet similique minima iusto quas assumenda architecto expedita. Dolore culpa laborum dolor ipsum nihil. Ab.
-
-</div>
-
-
-
-<div>
-
 ## Employment history
 <div class="timeline">
 
@@ -57,6 +37,34 @@ Elit eum dolorem corrupti doloremque saepe? Praesentium eligendi dolorem ut eius
 
 </div>
 
+<div>
+
+## Skills
+
+<div class="skills">
+
+- Python
+- CSS
+- Linux
+- JavaScript
+- HTML5
+- Git
+- HTML
+- Web Development
+- Django
+- MySQL
+- Sublime Text
+- SQL
+- Arch Linux
+- Vim
+- Web Scraping
+- English
+- jQuery
+
+</div>
+
+
+</div>
 
 
 <div>
@@ -99,85 +107,6 @@ Elit eum dolorem corrupti doloremque saepe? Praesentium eligendi dolorem ut eius
 
 </div>
 
-
-
-<div>
-
-## Ipsum fuga.
-Elit fugit expedita obcaecati dignissimos cumque ratione quae. Illo est amet voluptatum delectus cupiditate quidem natus culpa. Voluptatibus nihil dolores reprehenderit optio molestias dignissimos quam reprehenderit, fugiat, aut quaerat.
-Elit eum dolorem corrupti doloremque saepe? Praesentium eligendi dolorem ut eius eveniet harum recusandae. Nemo obcaecati natus dolorum possimus quam. Tempora ad ex corporis rerum alias. Totam illum modi soluta magnam praesentium. Perferendis sequi laboriosam perferendis illum omnis molestias dignissimos. Aliquid eius obcaecati minus voluptatum ducimus aperiam. Enim vel perferendis repudiandae incidunt eveniet similique minima iusto quas assumenda architecto expedita. Dolore culpa laborum dolor ipsum nihil. Ab.
-
-</div>
-
-
-
-<div>
-
-## Ipsum fuga.
-Elit fugit expedita obcaecati dignissimos cumque ratione quae. Illo est amet voluptatum delectus cupiditate quidem natus culpa. Voluptatibus nihil dolores reprehenderit optio molestias dignissimos quam reprehenderit, fugiat, aut quaerat.
-Elit eum dolorem corrupti doloremque saepe? Praesentium eligendi dolorem ut eius eveniet harum recusandae. Nemo obcaecati natus dolorum possimus quam. Tempora ad ex corporis rerum alias. Totam illum modi soluta magnam praesentium. Perferendis sequi laboriosam perferendis illum omnis molestias dignissimos. Aliquid eius obcaecati minus voluptatum ducimus aperiam. Enim vel perferendis repudiandae incidunt eveniet similique minima iusto quas assumenda architecto expedita. Dolore culpa laborum dolor ipsum nihil. Ab.
-
-</div>
-
-
-
-<div>
-
-## Ipsum fuga.
-Elit fugit expedita obcaecati dignissimos cumque ratione quae. Illo est amet voluptatum delectus cupiditate quidem natus culpa. Voluptatibus nihil dolores reprehenderit optio molestias dignissimos quam reprehenderit, fugiat, aut quaerat.
-Elit eum dolorem corrupti doloremque saepe? Praesentium eligendi dolorem ut eius eveniet harum recusandae. Nemo obcaecati natus dolorum possimus quam. Tempora ad ex corporis rerum alias. Totam illum modi soluta magnam praesentium. Perferendis sequi laboriosam perferendis illum omnis molestias dignissimos. Aliquid eius obcaecati minus voluptatum ducimus aperiam. Enim vel perferendis repudiandae incidunt eveniet similique minima iusto quas assumenda architecto expedita. Dolore culpa laborum dolor ipsum nihil. Ab.
-
-</div>
-
-
-
-<div>
-
-## Ipsum fuga.
-Elit fugit expedita obcaecati dignissimos cumque ratione quae. Illo est amet voluptatum delectus cupiditate quidem natus culpa. Voluptatibus nihil dolores reprehenderit optio molestias dignissimos quam reprehenderit, fugiat, aut quaerat.
-Elit eum dolorem corrupti doloremque saepe? Praesentium eligendi dolorem ut eius eveniet harum recusandae. Nemo obcaecati natus dolorum possimus quam. Tempora ad ex corporis rerum alias. Totam illum modi soluta magnam praesentium. Perferendis sequi laboriosam perferendis illum omnis molestias dignissimos. Aliquid eius obcaecati minus voluptatum ducimus aperiam. Enim vel perferendis repudiandae incidunt eveniet similique minima iusto quas assumenda architecto expedita. Dolore culpa laborum dolor ipsum nihil. Ab.
-
-</div>
-
-
-
-<div>
-
-## Ipsum fuga.
-Elit fugit expedita obcaecati dignissimos cumque ratione quae. Illo est amet voluptatum delectus cupiditate quidem natus culpa. Voluptatibus nihil dolores reprehenderit optio molestias dignissimos quam reprehenderit, fugiat, aut quaerat.
-Elit eum dolorem corrupti doloremque saepe? Praesentium eligendi dolorem ut eius eveniet harum recusandae. Nemo obcaecati natus dolorum possimus quam. Tempora ad ex corporis rerum alias. Totam illum modi soluta magnam praesentium. Perferendis sequi laboriosam perferendis illum omnis molestias dignissimos. Aliquid eius obcaecati minus voluptatum ducimus aperiam. Enim vel perferendis repudiandae incidunt eveniet similique minima iusto quas assumenda architecto expedita. Dolore culpa laborum dolor ipsum nihil. Ab.
-
-</div>
-
-
-
-<div>
-
-## Ipsum fuga.
-Elit fugit expedita obcaecati dignissimos cumque ratione quae. Illo est amet voluptatum delectus cupiditate quidem natus culpa. Voluptatibus nihil dolores reprehenderit optio molestias dignissimos quam reprehenderit, fugiat, aut quaerat.
-Elit eum dolorem corrupti doloremque saepe? Praesentium eligendi dolorem ut eius eveniet harum recusandae. Nemo obcaecati natus dolorum possimus quam. Tempora ad ex corporis rerum alias. Totam illum modi soluta magnam praesentium. Perferendis sequi laboriosam perferendis illum omnis molestias dignissimos. Aliquid eius obcaecati minus voluptatum ducimus aperiam. Enim vel perferendis repudiandae incidunt eveniet similique minima iusto quas assumenda architecto expedita. Dolore culpa laborum dolor ipsum nihil. Ab.
-
-</div>
-
-
-
-<div>
-
-## Ipsum fuga.
-Elit fugit expedita obcaecati dignissimos cumque ratione quae. Illo est amet voluptatum delectus cupiditate quidem natus culpa. Voluptatibus nihil dolores reprehenderit optio molestias dignissimos quam reprehenderit, fugiat, aut quaerat.
-Elit eum dolorem corrupti doloremque saepe? Praesentium eligendi dolorem ut eius eveniet harum recusandae. Nemo obcaecati natus dolorum possimus quam. Tempora ad ex corporis rerum alias. Totam illum modi soluta magnam praesentium. Perferendis sequi laboriosam perferendis illum omnis molestias dignissimos. Aliquid eius obcaecati minus voluptatum ducimus aperiam. Enim vel perferendis repudiandae incidunt eveniet similique minima iusto quas assumenda architecto expedita. Dolore culpa laborum dolor ipsum nihil. Ab.
-
-</div>
-
-
-
-<div>
-
-## Ipsum fuga.
-Elit fugit expedita obcaecati dignissimos cumque ratione quae. Illo est amet voluptatum delectus cupiditate quidem natus culpa. Voluptatibus nihil dolores reprehenderit optio molestias dignissimos quam reprehenderit, fugiat, aut quaerat.
-Elit eum dolorem corrupti doloremque saepe? Praesentium eligendi dolorem ut eius eveniet harum recusandae. Nemo obcaecati natus dolorum possimus quam. Tempora ad ex corporis rerum alias. Totam illum modi soluta magnam praesentium. Perferendis sequi laboriosam perferendis illum omnis molestias dignissimos. Aliquid eius obcaecati minus voluptatum ducimus aperiam. Enim vel perferendis repudiandae incidunt eveniet similique minima iusto quas assumenda architecto expedita. Dolore culpa laborum dolor ipsum nihil. Ab.
-
-</div>
 
 
 Attributions (in order of appearance)
