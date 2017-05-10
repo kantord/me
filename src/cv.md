@@ -112,6 +112,14 @@
 
 </div>
 
+<div>
+
+## Links
+
+- <a href="cv.pdf">Download PDF version</a>
+
+</div>
+
 
 
 Attributions (in order of appearance)
