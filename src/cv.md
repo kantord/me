@@ -48,23 +48,25 @@
 
 <div class="skills">
 
-- Python
-- CSS
-- Linux
-- JavaScript
-- HTML5
-- Git
-- HTML
-- Web Development
-- Django
-- MySQL
-- Sublime Text
-- SQL
-- Arch Linux
-- Vim
-- Web Scraping
-- English
-- jQuery
+- **Python**
+- **JavaScript**
+- **CSS**
+- **Linux**
+- **HTML5**
+- **Django**
+- **Web Scraping**
+- *Vim*
+- *bash*
+- *MySQL*
+- *Arch Linux*
+- *Git*
+- *Haskell*
+- *ETL*
+- *DocRaptor*
+- *PrinceXML*
+- <span>React</span>
+- <span>NodeJS</span>
+- <span>Electron</span>
 
 </div>
 
