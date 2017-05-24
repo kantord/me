@@ -9,5 +9,5 @@ dist/cv.css: src/cv.sass
 dist/cv.html: src/header.html dist/_tmp.html src/footer.html
 	cat $^ > $@
 
-dist/cv.pdf: dist/cv.html
+dist/cv.pdf: dist/cv.html dist/*
 	weasyprint $< $@ --base-url dist

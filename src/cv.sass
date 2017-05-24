@@ -292,3 +292,46 @@ em {
     display: inline;
   }
 }
+
+@page {
+  size: A4;
+}
+
+@media print {
+  body {
+    background: $print-background;
+    font-size: 12px;
+  }
+
+  .timeline>ul>li {
+    background: mix($secondary, $print-background, 15%);
+  }
+
+  tr.sep {
+    border-bottom: .8em solid $print-background;
+  }
+
+  h1, h2, h3, h4, h5 {
+    page-break-after: avoid;
+  }
+
+  table, figure, body>div {
+    page-break-inside: avoid;
+  }
+
+  body {
+      margin: 0;
+  }
+
+  h2 {
+    float: left;
+    width: 14em;
+    position: sticky;
+    top: 0;
+    text-align: right;
+  }
+
+  h2 + * {
+    margin-left: 20em;
+  }
+}
