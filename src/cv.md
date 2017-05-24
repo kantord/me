@@ -124,9 +124,12 @@
 
 
 
+<div class=attribs>
+
 Attributions (in order of appearance)
 - designed by Popcorn Arts from Flaticon
 - designed by Vectors Market from Flaticon
 - designed by Freepik from Flaticon
 - designed by Pixel Perfect from Flaticon
 
+</div>

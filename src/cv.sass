@@ -330,3 +330,23 @@ em {
 .alt em:not(:first-child) {
   margin-left: 1em;
 }
+
+.attribs {
+  font-size: .6em;
+  margin: 0;
+  padding: 0;
+  clear: both;
+  text-align: center;
+  margin: 3em;
+  li {
+    display: inline;
+
+    &:after {
+      content: ";";
+    }
+  }
+
+  p {
+    display: inline;
+  }
+}
