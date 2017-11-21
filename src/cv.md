@@ -1,9 +1,9 @@
 # Dániel Kántor
 
-- <img src="./003-cityscape.svg" alt="" class=icon> Budapest-based
-- <img src="./002-browser.svg" alt="" class=icon> Full stack developer
-- <img src="./001-language.svg" alt="" class=icon> Language lover
-- <img src="./books.svg" alt="" class=icon> MOOC junkie
+- Budapest-based
+- Full stack developer
+- Language lover
+- MOOC junkie
 
 <div class=alt>
 
@@ -46,7 +46,7 @@
 
 ## Skills
 
-<div class="skills">
+<div class="compact">
 
 - **Python**
 - **JavaScript**
@@ -119,17 +119,5 @@
 ## Links
 
 - <a href="cv.pdf">Download PDF version</a>
-
-</div>
-
-
-
-<div class=attribs>
-
-Image attributions (in order of appearance)
-- designed by Popcorn Arts from Flaticon
-- designed by Vectors Market from Flaticon
-- designed by Freepik from Flaticon
-- designed by Pixel Perfect from Flaticon
 
 </div>

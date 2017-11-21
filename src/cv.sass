@@ -1,348 +1,41 @@
 @import "reset";
 @import "colors";
 
-body {
-    font-family: 'Nunito', monospace;
-    line-height: 1.5;
-    max-width: 70em;
-    margin: 1em auto;
-    @media (max-width: 50em) {
-      margin: 0;
-    }
-}
+body                             {font-size: 1em; padding: 1rem;
+                                  line-height: 1.75;}
 
-h1 + ul {
-  text-align: center;
-    margin: 1em;
-    margin-bottom: 4em;
-}
+@media screen { 
+                body             {max-width: 960px; margin: auto;}
+                html             {font-size: 18px;}
+              }
 
-h1 + ul li {
-  display: inline-block;
-    text-align: center;
-    font-family: 'Taviraj', serif;
-    font-weight: bold;
-    font-size: 1.1em;
-}
+@media print  {
+                html             {font-size: 12px;}
+              }
 
-.icon {
-  width: 8em;
-    height: 8em;
-    margin: 2em;
-    display: block;
-}
 
-h1 {
-  text-align: center;
-    font-size: 2.5em;
-    padding: 2em;
-    background: $secondary;
-    font-weight: bold;
-    color: $background;
-    font-family: 'Taviraj', serif;
-}
+h1                               {font-size: 6.854rem; margin: 4.236rem 0;
+                                  line-height: 1;}
 
-body>div {
-  position: relative;
-  min-height: 4em;
-}
+h2                               {font-size: 2.618rem; margin: 1.618rem 0;
+                                  line-height: 1;}
 
-h2 {
-  @media (min-width: 50em) {
-    float: left;
-    width: 14em;
-    position: sticky;
-    top: 0;
-    text-align: right;
-  }
 
-  margin: 1em;
-  font-size: 1.3em;
-  font-family: 'Taviraj', serif;
-  font-weight: bold;
-}
+strong                           {font-weight: bold;}
+b                                {font-weight: medium;}
+td                               {padding: .1rem 1rem;}
 
-p {
-  margin: 1em;
-}
 
-h2 + * {
-  @media (min-width: 50em) {
-    margin-left: 20em;
-  }
-}
-
-.timeline {
-  position: relative;
-}
-
-.timeline:before {
-  content: '';
-    position: absolute;
-    display: block;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    box-shadow: 0 0 16px 4px $background inset;
-    z-index: 1000000000;
-}
-
-.timeline>ul {
-  border-left: .125em dashed $secondary;
-    margin: 3em;
-    padding: 1em 2em;
-    position: relative;
-    margin-left: 10em;
-}
-
-.timeline>ul>li {
-  margin-bottom: 3em;
-    background: rgba(255,255,255,.5);
-    padding: .8em 1.5em;
-    position: relative;
-}
-
-.timeline>ul>li>p {
-  margin: 0;
-}
-
-.timeline>ul>li>p:first-child {
-  font-weight: bold;
-}
-
-.timeline>ul>li>ul>li {
-  font-weight: normal;
-    position: relative;
-}
-
-.timeline .time {
-  position: absolute;
-    top: 0;
-    left: -34px;
-    border-left: .125rem solid $secondary;
-    height: 100%;
-    font-weight: normal;
-    font-size: .7em;
-    text-align: right;
-}
-
-.timeline>ul>li>ul>li p ~ p {
-  font-size: .8em;
-    margin: 0;
-    margin-left: 1rem;
-}
-
-.timeline>ul>li>ul>li p:first-child {
-  margin-bottom: 0;
-}
-
-.timeline>ul>li>p:first-child ~ p {
-  font-size: .8em;
-    margin: 0;
-}
-
-.timeline>ul>li>ul>li:before {
-  position: absolute;
-    top: 0;
-    content: '';
-    width: 6px;
-    height: 6px;
-    left: -3.7em;
-    display: block;
-    border-radius: 50%;
-    background: $secondary;
-
-}
-
-.timeline .time:before,
-.timeline .time:after {
-  position: absolute;
-    top: 0;
-    content: '';
-    width: 10px;
-    height: 10px;
-    left: -8px;
-    border: 2px solid $secondary;
-    display: block;
-    border-radius: 50%;
-    background: white;
-}
-
-.timeline .time:after {
-  top: 100%;
-}
-
-.timeline .time span {
-  position: absolute;
-    left: -8em;
-    top: 0;
-}
-
-.time .end {
-  top: 100% !important;
+.compact ul {
+  text-align: justify;
+  li                             {display: inline-block; margin: 0 1rem;}
 }
 
 .progress {
-  display: inline-block;
-    background: mix($shaded, $background, 30%);
-    width: 10em;
-    height: .8em;
-    border-radius: 1em;
-    overflow: hidden;
-    background-clip: border-box;
-    clip-path: inset(0 0 0 0 round 100px);
-}
-
-.progress>* {
-  display: inline-block;
-    height: 1em;
-    background: $secondary;
-}
-
-td {
-  padding: .3em 1.5em;
-}
-
-tr.sep {
-  border-bottom: .8em solid $background;
-}
-
-table {
-}
-
-.skills ul {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 3em;
-    flex-flow: justify-content;
-    justify-content: center;
-    align-items: center;
-}
-
-.skills li {
-  display: inline-block;
-}
-
-.skills li strong {
-  display: inline-block;
-    margin: 0.2em .2em;
-    padding: 0.5em;
-    background: $secondary;
-    color: $background;
-    border-radius: 5%;
-    font-weight: bold;
-}
-
-.skills li em {
-  display: inline-block;
-    margin: 0.2em .2em;
-    padding: 0.5em;
-    background: $secondary;
-    color: $background;
-    border-radius: 5%;
-    opacity: .8;
-    font-weight: normal;
-}
-
-.skills li span {
-  display: inline-block;
-    margin: 0.2em .2em;
-    padding: 0.5em;
-    background: $secondary;
-    color: $background;
-    border-radius: 5%;
-    opacity: .2;
-    font-weight: normal;
-}
-
-a {color: inherit}
-html {background: white}
-body {background: $background; color: $color;}
-h2 {color: $primary;}
-
-.alt p {
-  background: $primary;
-    color: $background;
-    margin: 0;
-    padding: 1em;
-    text-align: center;
-}
-
-em {
-  font-weight: bold;
-}
-
-.alt em:not(:first-child) {
-  margin-left: 1em;
-}
-
-.attribs {
-  font-size: .6em;
-  margin: 0;
-  padding: 0;
-  clear: both;
-  text-align: center;
-  margin: 3em;
-  li {
-    display: inline;
-
-    &:after {
-      content: ";";
-    }
-  }
-
-  p {
-    display: inline;
-  }
-}
-
-@page {
-  size: A4;
-}
-
-@media print {
-  body {
-    background: $print-background;
-    font-size: 12px;
-  }
-
-  .timeline>ul>li {
-    background: mix($secondary, $print-background, 15%);
-  }
-
-  tr.sep {
-    border-bottom: .8em solid $print-background;
-  }
-
-  h1, h2, h3, h4, h5 {
-    page-break-after: avoid;
-  }
-
-  table, figure, body>div {
-    page-break-inside: avoid;
-  }
-
-  body {
-      margin: 0;
-  }
-
-  h2 {
-    float: left;
-    width: 12em;
-    position: sticky;
-    top: 0;
-    text-align: right;
-  }
-
-  h2 + * {
-    margin-left: 18em;
-  }
-
-  .icon {
-    width: 6em;
-    height: 6em;
-    margin: 1.5em;
-    display: block;
-  }
+    $progress-bar-height:        .5rem;
+    border:                      1px solid black;
+    width:                       8rem;
+    height:                      $progress-bar-height;
+    border-radius:               $progress-bar-height / 3;
+    div                          {background: black; height: 100%}
 }
