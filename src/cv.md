@@ -1,5 +1,7 @@
 # Dániel Kántor
 
+<div>
+
 - Budapest-based
 - Full stack developer
 - Language lover

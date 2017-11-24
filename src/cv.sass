@@ -1,7 +1,12 @@
 @import "reset";
 @import "colors";
 
-body                             {font-size: 1em; padding: 1rem;
+$golden-ratio: 1.61803;
+$base-font-size: 1rem;
+$small-title:    $base-font-size * $golden-ratio;
+$big-title:    $small-title * $golden-ratio;
+
+body                             {font-size: $base-font-size; padding: 1rem;
                                   line-height: 1.75;}
 
 @media screen { 
@@ -15,30 +20,138 @@ body                             {font-size: 1em; padding: 1rem;
               }
 
 
-h1                               {font-size: 6.854rem; margin: 4.236rem 0;
+h1                               {font-size: $big-title; margin: $big-title 0;
                                   line-height: 1; color: $orange;}
 
-h2                               {font-size: 2.618rem; margin: 1.618rem 0;
+h2                               {font-size: $small-title; margin: 1.618rem 0;
                                   line-height: 1; color: $orange;}
-
-h1, h2                           {text-shadow: 1px 1px #932a1a;}
 
 
 strong                           {font-weight: bold;}
 b                                {font-weight: medium;}
-td                               {padding: .1rem 1rem;}
+td                               {padding-right: 1rem;}
 
 
 .compact ul {
+  $item-margin:                 .2rem;
   text-align: justify;
-  li                             {display: inline-block; margin: 0 1rem;}
+  li {
+    display: inline-block;
+    margin: .25rem $item-margin;
+    line-height: 1.2;
+    padding: .15rem .3rem;
+    background: #e9f0f3;
+    border-radius:               .2rem;
+  }
+  margin-left:                  -$item-margin;
+  margin-right:                  -$item-margin;
 }
 
 .progress {
-    $progress-bar-height:        .5rem;
-    border:                      1px solid $black;
-    width:                       8rem;
-    height:                      $progress-bar-height;
-    border-radius:               $progress-bar-height / 3;
-    div                          {background: $gray; height: 100%}
+  $progress-bar-height:        .5rem;
+  border:                      1px solid $black;
+  width:                       8rem;
+  height:                      $progress-bar-height;
+  border-radius:               $progress-bar-height / 3;
+  div                          {background: $gray; height: 100%}
+}
+
+// Wide screens
+// weasyprint doesn't support media queries :'( 
+
+$title-width: 12rem;
+$title-margin: 4rem;
+
+h2 {
+  float: left;
+  width: $title-width;
+  margin-top: 0;
+}
+
+h2 ~ * {
+  padding-left: $title-width + $title-margin;
+  margin: 1.618rem;
+  margin-bottom: 1.618rem * 2;
+}
+
+.timeline {
+  $bullet-width: .7rem;
+  $small-bullet-width: $bullet-width / 2;
+  $bullet-margin: 2rem;
+
+  position: relative;
+
+  &:before {
+    content: "";
+    display: block;
+    position: absolute;
+    background: silver;
+    width: 2px;
+    left: $bullet-width + $title-width + $title-margin;
+    top: 0;
+    bottom: 0;
+  }
+
+  // bullet
+  li:before {
+    margin-left: 1px;
+    position: absolute;
+    left: $bullet-width + $title-width + $title-margin - ($bullet-width / 2);
+    content: "";
+    display: block;
+    background: $gray;
+    border: 1px solid $black;
+    width: $bullet-width;
+    height: $bullet-width;
+    border-radius: $bullet-width;
+    box-sizing: border-box;
+    margin-top: .5rem;
+  }
+
+  li li:before {
+    left: $title-width + $title-margin - ($small-bullet-width / 2) + $bullet-width;
+    width: $small-bullet-width;
+    height: $small-bullet-width;
+    border-radius: $small-bullet-width;
+    background: $black;
+  }
+
+  >ul>li {
+    margin-left: $bullet-width + $bullet-margin;
+    margin-top:  1rem;
+    margin-bottom:  1rem;
+    padding: .5rem 1rem;
+  }
+
+  ul>li>li {
+    margin-bottom: 0;
+  }
+
+  li p, li li {
+    font-size: 1rem;
+  }
+
+  li>:first-child {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  li li>:first-child {
+    font-size: 1rem;
+  }
+
+  .time {
+    font-size: .8rem;
+    font-weight: normal;
+    position: absolute;
+    height: 100%;
+    display: inline-block;
+    left: $title-width;
+    width: $title-margin;
+    text-align: right;
+
+    span {
+      display: inline-block;
+    }
+  }
 }
