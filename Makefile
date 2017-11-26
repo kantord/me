@@ -1,4 +1,7 @@
-all: dist/cv.html dist/cv.css dist/cv.pdf
+all: dist/index.html dist/cv.css dist/cv_daniel_kantor_developer.pdf
+
+deploy: all
+	rsync -r dist kdani@45.77.156.211:/home/kdani/cv-dist
 
 dist/_tmp.html: src/cv.md
 	cmark $^ --to html > $@
@@ -6,8 +9,8 @@ dist/_tmp.html: src/cv.md
 dist/cv.css: src/cv.sass
 	sass --scss $< | minify --mime "text/css" > $@
 
-dist/cv.html: src/header.html dist/_tmp.html src/footer.html
+dist/index.html: src/header.html dist/_tmp.html src/footer.html
 	cat $^ > $@
 
-dist/cv.pdf: dist/cv.html dist/*
+dist/cv_daniel_kantor_developer.pdf: dist/index.html dist/*
 	weasyprint $< $@ --base-url dist

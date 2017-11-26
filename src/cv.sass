@@ -1,18 +1,30 @@
 @import "reset";
 @import "colors";
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow|Source+Sans+Pro:400,400i,600,700&subset=latin-ext');
 
 $golden-ratio: 1.61803;
 $base-font-size: 1rem;
 $small-title:    $base-font-size * $golden-ratio;
 $big-title:    $small-title * $golden-ratio;
 
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 body                             {font-size: $base-font-size; padding: 1rem;
-                                  line-height: 1.75;}
+  line-height: 1.75; font-family: 'Source Sans Pro', sans-serif;
+
+  }
 
 @media screen { 
-                body             {max-width: 960px; margin: auto;
-                                  background: $white; color: $black;}
-                html             {font-size: 18px;}
+                body             {max-width: 960px; margin: 2rem auto;
+                  background: $white; color: $black; padding: 1rem 4rem;}
+                html             {font-size: 18px;
+background: #141E30;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                }
               }
 
 @media print  {
@@ -26,9 +38,13 @@ h1                               {font-size: $big-title; margin: $big-title 0;
 h2                               {font-size: $small-title; margin: 1.618rem 0;
                                   line-height: 1; color: $orange;}
 
+h1, h2 {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
 
 strong                           {font-weight: bold;}
-b                                {font-weight: medium;}
+em                                {font-weight: 600;}
 td                               {padding-right: 1rem;}
 
 
@@ -121,10 +137,11 @@ h2 ~ * {
     margin-top:  1rem;
     margin-bottom:  1rem;
     padding: .5rem 1rem;
+    background: #e9f0f3;
   }
 
-  ul>li>li {
-    margin-bottom: 0;
+  li ul li {
+    margin-bottom: 1rem;
   }
 
   li p, li li {
@@ -133,7 +150,7 @@ h2 ~ * {
 
   li>:first-child {
     font-size: 1rem;
-    font-weight: bold;
+    font-weight: 600;
   }
 
   li li>:first-child {
