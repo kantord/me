@@ -1,16 +1,13 @@
 # Dániel Kántor
 
 <div>
+
 Budapest-based developer, language lover, MOOC junkie
 
-
-*Full name*: Dániel Kántor
-
-*Email*: cv@daniel-kantor.com
-
-*Location*: Budapest
-
-*Date of Birth*: 1993-05-28
+*Full name*: Dániel Kántor <br>
+*Email*: cv@daniel-kantor.com <br>
+*Location*: Budapest <br>
+*Date of Birth*: 1993-05-28 <br>
 
 <div>
 

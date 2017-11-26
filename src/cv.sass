@@ -6,6 +6,12 @@ $golden-ratio: 1.61803;
 $base-font-size: 1rem;
 $small-title:    $base-font-size * $golden-ratio;
 $big-title:    $small-title * $golden-ratio;
+$bullet-width: .7rem;
+$small-bullet-width: $bullet-width / 2;
+$bullet-margin: 2rem;
+$progress-bar-height:        .5rem;
+
+
 
 * {
   -webkit-font-smoothing: antialiased;
@@ -36,7 +42,7 @@ h1                               {font-size: $big-title; margin: $big-title 0;
                                   line-height: 1; color: $orange;}
 
 h2                               {font-size: $small-title; margin: 1.618rem 0;
-                                  line-height: 1; color: $orange;}
+  line-height: 1; color: $orange; position: sticky; top: 0;}
 
 h1, h2 {
     font-family: 'Archivo Narrow', sans-serif;
@@ -46,6 +52,7 @@ h1, h2 {
 strong                           {font-weight: bold;}
 em                                {font-weight: 600;}
 td                               {padding-right: 1rem;}
+p                               {margin: 2rem 0;}
 
 
 .compact ul {
@@ -65,7 +72,6 @@ td                               {padding-right: 1rem;}
 }
 
 .progress {
-  $progress-bar-height:        .5rem;
   border:                      1px solid $black;
   width:                       8rem;
   height:                      $progress-bar-height;
@@ -93,9 +99,9 @@ h2 ~ * {
 }
 
 .timeline {
-  $bullet-width: .7rem;
-  $small-bullet-width: $bullet-width / 2;
-  $bullet-margin: 2rem;
+  p {
+    margin: 0;
+  }
 
   position: relative;
 
@@ -173,4 +179,57 @@ h2 ~ * {
       display: inline-block;
     }
   }
+}
+
+/* Can't do mobile first because of weasyprint :( */
+@media screen and (max-width: 850px) {
+  h2 {
+    width: auto;
+    float: none;
+    position: static;
+    text-align: left;
+  }
+
+  h2 ~ div, h2 ~ ul {
+    padding-left: 0;
+  }
+
+  .timeline:before {
+    left: $bullet-width;
+  }
+
+  .timeline li:before {
+    left: $bullet-width - ($bullet-width / 2);
+  }
+  .timeline li li:before {
+    left: - ($small-bullet-width / 2) + $bullet-width;
+  }
+
+  .timeline .time {
+    left: 0 - $bullet-margin * 2;
+  }
+
+  .progress {
+    width:                       8rem * 2 / 3;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 16px;
+  }
+
+  body {
+    padding: .5rem .5rem;
+  }
+
+  .timeline .time {
+    left: 0 - $bullet-margin;
+    margin-top: 1rem;
+  }
+
+  .progress {
+    width:                       3rem;
+  }
+
 }
