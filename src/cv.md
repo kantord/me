@@ -3,6 +3,7 @@
 <div>
 Budapest-based developer, language lover, MOOC junkie
 
+
 *Full name*: Dániel Kántor
 
 *Email*: cv@daniel-kantor.com
@@ -114,6 +115,7 @@ Budapest-based developer, language lover, MOOC junkie
 
 ## Links
 
-- <a href="cv.pdf">Download PDF version</a>
+- <a href="http://daniel-kantor.com/cv/cv_daniel_kantor_developer.pdf">Download PDF version</a>
+- <a href="http://daniel-kantor.com/cv/">Online version</a>
 
 </div>
