@@ -16,7 +16,7 @@ Budapest-based developer, language lover, MOOC junkie
 
 - Mito <span class=time><span>Present</span><span class=end>2016 Sep</span></span>
 
-    Data visualizaton and ETL using Python and Chartio
+    Data visualizaton and ETL using Python, Chartio and d3.js
 
 - Maven 7 <span class=time><span>2016 Sep</span><span class=end>2013 Mar</span></span>
 
@@ -26,7 +26,7 @@ Budapest-based developer, language lover, MOOC junkie
 
     - Diktiolabs
 
-        Data collection, data analysis using Python and Selenium; web development
+        Data collection, data analysis using Python and Selenium; web development; data visualization using d3.js
 
     - FirmNetOnline
         
@@ -51,7 +51,7 @@ Budapest-based developer, language lover, MOOC junkie
 - **Web Scraping**
 - *Vim*
 - *bash*
-- *MySQL*
+- *Postgresql*
 - *Arch Linux*
 - *Git*
 - *Haskell*
