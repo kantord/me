@@ -84,22 +84,22 @@ Budapest-based developer, language lover, MOOC junkie
             <td>Professional proficiency</td>
         </tr>
         <tr>
-            <td><div class="progress"><div style="width:60%"></div></div></td>
+            <td><div class="progress"><div style="width:50%"></div></div></td>
+            <td>Spanish</td>
+            <td>Elementary proficiency</td>
+        </tr>
+        <tr>
+            <td><div class="progress"><div style="width:45%"></div></div></td>
             <td>Portuguese</td>
             <td>Elementary proficiency</td>
         </tr>
         <tr>
-            <td><div class="progress"><div style="width:40%"></div></div></td>
-            <td>Spanish</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td><div class="progress"><div style="width:20%"></div></div></td>
+            <td><div class="progress"><div style="width:25%"></div></div></td>
             <td>Catalan</td>
             <td></td>
         </tr>
         <tr>
-            <td><div class="progress"><div style="width:10%"></div></div></td>
+            <td><div class="progress"><div style="width:5%"></div></div></td>
             <td>German</td>
             <td></td>
         </tr>
