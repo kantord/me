@@ -112,7 +112,7 @@ Budapest-based developer, language lover, MOOC junkie
 
 ## Links
 
-- <a href="http://daniel-kantor.com/cv/cv_daniel_kantor_developer.pdf">Download PDF version</a>
+- <a href="http://daniel-kantor.com/cv/cv_daniel_kantor_developer.pdf">PDF version</a>
 - <a href="http://daniel-kantor.com/cv/">Online version</a>
 
 </div>
