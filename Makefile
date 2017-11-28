@@ -9,7 +9,10 @@ dist/_tmp.html: src/cv.md
 dist/cv.css: src/cv.sass dist/pdf.svg
 	sass --scss $< | minify --mime "text/css" > $@
 
-dist/index.html: src/header.html dist/_tmp.html src/footer.html
+dist/_inline_css.html: dist/cv.css
+	echo "<style>" `cat $<` "</style>" > $@
+
+dist/index.html: src/header.html dist/_tmp.html dist/_inline_css.html src/footer.html
 	cat $^ > $@
 
 dist/cv_daniel_kantor_developer.pdf: dist/index.html dist/*
