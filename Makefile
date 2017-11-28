@@ -6,7 +6,7 @@ deploy: all
 dist/_tmp.html: src/cv.md
 	cmark $^ --to html > $@
 
-dist/cv.css: src/cv.sass
+dist/cv.css: src/cv.sass dist/pdf.svg
 	sass --scss $< | minify --mime "text/css" > $@
 
 dist/index.html: src/header.html dist/_tmp.html src/footer.html
@@ -14,3 +14,6 @@ dist/index.html: src/header.html dist/_tmp.html src/footer.html
 
 dist/cv_daniel_kantor_developer.pdf: dist/index.html dist/*
 	weasyprint $< $@ --base-url dist
+
+dist/pdf.svg: src/pdf.svg
+	cp $< $@

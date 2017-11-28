@@ -24,7 +24,7 @@ body                             {font-size: $base-font-size; padding: 1rem;
   }
 
 @media screen { 
-                body             {max-width: 960px; margin: 2rem auto;
+                body             {max-width: 960px; margin: 3rem auto;
                   background: $white; color: $black; padding: 1rem 4rem;}
                 html             {font-size: 18px;
 background: #141E30;  /* fallback for old browsers */
@@ -246,4 +246,42 @@ h2 ~ * {
 .timeline, .progress, .compact {
   -webkit-print-color-adjust: exact !important;
   color-adjust: exact !important;
+}
+
+.top-button {
+  font-size: .8rem;
+  position: absolute;
+  top: .5rem;
+  right: 1rem;
+  color: inherit;
+  text-decoration: none;
+  background: $white;
+  padding: .1rem .3rem;
+  border-radius: .3rem;
+  background: -webkit-linear-gradient(top,$white,#c3c3c8);
+  background: -o-linear-gradient(top,$white,#c3c3c8);
+  background: -moz-linear-gradient(top,$white,#c3c3c8);
+  background: linear-gradient(to bottom, $white, #c3c3c8);
+  box-shadow: 1px 1px 3px black;
+
+  img {
+    display: inline-block;
+    width: .8rem;
+    height: .8rem;
+    margin-bottom: -.1rem;
+  }
+
+  &:active {
+    background: -webkit-linear-gradient(top,$white,$white);
+    background: -o-linear-gradient(top,$white,$white);
+    background: -moz-linear-gradient(top,$white,$white);
+    background: linear-gradient(to bottom, $white, $white);
+    box-shadow: 0 0 0 black;
+  }
+}
+
+@media print {
+  .top-button {
+    display: none;
+  }
 }
