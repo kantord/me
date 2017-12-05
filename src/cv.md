@@ -10,8 +10,8 @@
 
 *Full name*: Dániel Kántor <br>
 *Email*: cv@daniel-kantor.com <br>
-*Location*: Budapest <br>
-*Date of Birth*: 1993-05-28 <br>
+*Location*: Budapest, Hungary <br>
+*Date of Birth*: May 1993 <br>
 
 </div>
 
@@ -81,32 +81,32 @@
         <tr>
             <td><div class="progress"><div style="width:100%"></div></div></td>
             <td>Hungarian</td>
-            <td>Native proficiency</td>
+            <td>Native</td>
         </tr>
         <tr class="sep">
             <td><div class="progress"><div style="width:90%"></div></div></td>
             <td>English</td>
-            <td>Professional proficiency</td>
+            <td>Proficient user</td>
         </tr>
         <tr>
             <td><div class="progress"><div style="width:50%"></div></div></td>
             <td>Spanish</td>
-            <td>Elementary proficiency</td>
+            <td>Independent user</td>
         </tr>
         <tr>
             <td><div class="progress"><div style="width:45%"></div></div></td>
             <td>Portuguese</td>
-            <td>Elementary proficiency</td>
+            <td>Independent user</td>
         </tr>
         <tr>
             <td><div class="progress"><div style="width:25%"></div></div></td>
             <td>Catalan</td>
-            <td></td>
+            <td>Basic user</td>
         </tr>
         <tr>
             <td><div class="progress"><div style="width:5%"></div></div></td>
             <td>German</td>
-            <td></td>
+            <td>Basic user</td>
         </tr>
     </table>
 </div>
@@ -120,6 +120,6 @@
 - <a href="http://daniel-kantor.com/cv/cv_daniel_kantor_developer.pdf">PDF version</a>
 - <a href="http://daniel-kantor.com/cv/">Online version</a>
 - <a href="https://github.com/kantord">GitHub profile</a>
-- <a href="https://www.linkedin.com/in/d%C3%A1niel-k%C3%A1ntor-b8975a39/">LinkedIn profile</a>
+- <a href="https://www.linkedin.com/in/dániel-kántor-b8975a39/">LinkedIn profile</a>
 
 </div>
