@@ -19,13 +19,14 @@ Developer, language lover, MOOC junkie
 
 - Mito <span class=time><span>Present</span><span class=end>2016 Sep</span></span>
 
-    Data visualizaton and ETL using Python, Chartio and d3.js
+    Data visualizaton, ETL using Python, Chartio, d3.js, PostgreSQL
 
 - Maven 7 <span class=time><span>2016 Sep</span><span class=end>2013 Mar</span></span>
 
     - OrgMapper
 
-        Frontend and backend work using Django and Angular
+        Frontend and backend work using Django and Angular; Implementing an
+        automatized PDF report compiler
 
     - Diktiolabs
 
@@ -52,15 +53,15 @@ Developer, language lover, MOOC junkie
 - **HTML5**
 - **Django**
 - **Web Scraping**
-- *Vim*
 - *bash*
-- *Postgresql*
+- *PostgreSQL*
+- *Vim*
 - *Arch Linux*
 - *Git*
-- *Haskell*
 - *ETL*
 - *DocRaptor*
 - *PrinceXML*
+- <span>Haskell</span>
 - <span>React</span>
 - <span>NodeJS</span>
 - <span>Electron</span>
