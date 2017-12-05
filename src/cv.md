@@ -14,34 +14,6 @@ Developer, language lover, MOOC junkie
 
 <div>
 
-## Employment history
-<div class="timeline">
-
-- Mito <span class=time><span>Present</span><span class=end>2016 Sep</span></span>
-
-    Data visualizaton, ETL using Python, Chartio, d3.js, PostgreSQL
-
-- Maven 7 <span class=time><span>2016 Sep</span><span class=end>2013 Mar</span></span>
-
-    - OrgMapper
-
-        Frontend and backend work using Django and Angular; Implementing an
-        automatized PDF report compiler
-
-    - Diktiolabs
-
-        Data collection, data analysis using Python and Selenium; web development; data visualization using d3.js
-
-    - FirmNetOnline
-        
-        Frontend and backend work using Django and jQuery
-
-</div>
-
-</div>
-
-<div>
-
 ## Skills
 
 <div class="compact">
@@ -71,6 +43,32 @@ Developer, language lover, MOOC junkie
 
 </div>
 
+
+
+## Employment history
+<div class="timeline">
+
+- Mito <span class=time><span>Present</span><span class=end>2016 Sep</span></span>
+
+    Data visualizaton and ETL using Python, Chartio and d3.js
+
+- Maven 7 <span class=time><span>2016 Sep</span><span class=end>2013 Mar</span></span>
+
+    - OrgMapper
+
+        Frontend and backend work using Django and Angular
+
+    - Diktiolabs
+
+        Data collection, data analysis using Python and Selenium; web development; data visualization using d3.js
+
+    - FirmNetOnline
+        
+        Frontend and backend work using Django and jQuery
+
+</div>
+
+</div>
 
 <div>
 
