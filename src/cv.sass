@@ -20,7 +20,7 @@ $progress-bar-height:        .5rem;
 
 body                             {font-size: $base-font-size; padding: 1rem;
   line-height: 1.75; font-family: 'Source Sans Pro', sans-serif;
-
+  position: relative;
   }
 
 @media screen { 
@@ -46,7 +46,7 @@ background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, F
 
 
 h1                               {font-size: $big-title; margin: $big-title 0;
-                                  line-height: 1; color: $orange;}
+  line-height: 1; color: $orange; margin-bottom: 5.5rem}
 
 h2                               {font-size: $small-title; margin: 1.618rem 0;
   line-height: 1; color: $orange; position: sticky; top: 0;}
@@ -250,7 +250,7 @@ h2 ~ * {
 
 .top-button {
   font-size: .8rem;
-  position: absolute;
+  position: fixed;
   top: .5rem;
   right: 1rem;
   color: inherit;
@@ -284,4 +284,10 @@ h2 ~ * {
   .top-button {
     display: none;
   }
+}
+
+#corner {
+  position: absolute;
+  top: 0;
+  right: 4rem;
 }

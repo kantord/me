@@ -5,12 +5,15 @@
 
 <div>
 
-Developer, language lover, MOOC junkie
+<div id="corner">
+
 
 *Full name*: Dániel Kántor <br>
 *Email*: cv@daniel-kantor.com <br>
 *Location*: Budapest <br>
 *Date of Birth*: 1993-05-28 <br>
+
+</div>
 
 <div>
 
@@ -116,5 +119,7 @@ Developer, language lover, MOOC junkie
 
 - <a href="http://daniel-kantor.com/cv/cv_daniel_kantor_developer.pdf">PDF version</a>
 - <a href="http://daniel-kantor.com/cv/">Online version</a>
+- <a href="https://github.com/kantord">GitHub profile</a>
+- <a href="https://www.linkedin.com/in/d%C3%A1niel-k%C3%A1ntor-b8975a39/">LinkedIn profile</a>
 
 </div>
