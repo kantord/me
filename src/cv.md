@@ -29,6 +29,7 @@
 - **Django**
 - **Web Scraping**
 - *bash*
+- *d3*
 - *PostgreSQL*
 - *Vim*
 - *Arch Linux*
@@ -46,6 +47,15 @@
 
 </div>
 
+<div>
+
+## References
+
+- Check out [my pet project on GitHub](https://github.com/kantord/just-dashboard)
+
+</div>
+
+<div>
 
 
 ## Employment history
@@ -113,13 +123,16 @@
 
 </div>
 
-<div>
+
 
 ## Links
+
 
 - <a href="http://daniel-kantor.com/cv/cv_daniel_kantor_developer.pdf">PDF version</a>
 - <a href="http://daniel-kantor.com/cv/">Online version</a>
 - <a href="https://github.com/kantord">GitHub profile</a>
 - <a href="https://www.linkedin.com/in/dániel-kántor-b8975a39/">LinkedIn profile</a>
+
+</div>
 
 </div>
