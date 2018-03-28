@@ -1,348 +1,306 @@
 @import "reset";
 @import "colors";
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow|Source+Sans+Pro:400,400i,600,700&subset=latin-ext');
 
-body {
-    font-family: 'Nunito', monospace;
-    line-height: 1.5;
-    max-width: 70em;
-    margin: 1em auto;
-    @media (max-width: 50em) {
-      margin: 0;
-    }
+$golden-ratio: 1.61803;
+$base-font-size: 1rem;
+$small-title:    $base-font-size * $golden-ratio;
+$big-title:    $small-title * $golden-ratio;
+$bullet-width: .7rem;
+$small-bullet-width: $bullet-width / 2;
+$bullet-margin: 2rem;
+$progress-bar-height:        .5rem;
+
+
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-h1 + ul {
-  text-align: center;
-    margin: 1em;
-    margin-bottom: 4em;
-}
-
-h1 + ul li {
-  display: inline-block;
-    text-align: center;
-    font-family: 'Taviraj', serif;
-    font-weight: bold;
-    font-size: 1.1em;
-}
-
-.icon {
-  width: 8em;
-    height: 8em;
-    margin: 2em;
-    display: block;
-}
-
-h1 {
-  text-align: center;
-    font-size: 2.5em;
-    padding: 2em;
-    background: $secondary;
-    font-weight: bold;
-    color: $background;
-    font-family: 'Taviraj', serif;
-}
-
-body>div {
+body                             {font-size: $base-font-size; padding: 1rem;
+  line-height: 1.75; font-family: 'Source Sans Pro', sans-serif;
   position: relative;
-  min-height: 4em;
-}
-
-h2 {
-  @media (min-width: 50em) {
-    float: left;
-    width: 14em;
-    position: sticky;
-    top: 0;
-    text-align: right;
   }
 
-  margin: 1em;
-  font-size: 1.3em;
-  font-family: 'Taviraj', serif;
-  font-weight: bold;
+@media screen { 
+                body             {max-width: 960px; margin: 3rem auto;
+                  background: $white; color: $black; padding: 1rem 4rem;}
+                html             {font-size: 18px;
+background: #141E30;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                }
+              }
+
+@media print  {
+                html             {font-size: 12px;}
+                a:link:after, 
+                a:visited:after { 
+                  content: " (" attr(href) ") "; 
+                  font-size: 90%; 
+                  text-decoration: none;
+                  color: $black;
+                }
+              }
+
+
+h1                               {font-size: $big-title; margin: $big-title 0;
+  line-height: 1; color: $orange; margin-bottom: 5.5rem}
+
+h2                               {font-size: $small-title; margin: 1.618rem 0;
+  line-height: 1; color: $orange; position: sticky; top: 0;}
+
+h1, h2 {
+    font-family: 'Archivo Narrow', sans-serif;
 }
 
-p {
-  margin: 1em;
-}
 
-h2 + * {
-  @media (min-width: 50em) {
-    margin-left: 20em;
+strong                           {font-weight: bold;}
+em                                {font-weight: 600;}
+td                               {padding-right: 1rem;}
+p                               {margin: 2rem 0;}
+
+
+.compact ul {
+  $item-margin:                 .2rem;
+  text-align: justify;
+  li {
+    display: inline-block;
+    margin: 0 $item-margin;
+    margin-bottom: .5rem;
+    line-height: 1.2;
+    padding: .15rem .3rem;
+    background: #e9f0f3;
+    border-radius:               .2rem;
   }
-}
-
-.timeline {
-  position: relative;
-}
-
-.timeline:before {
-  content: '';
-    position: absolute;
-    display: block;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    box-shadow: 0 0 16px 4px $background inset;
-    z-index: 1000000000;
-}
-
-.timeline>ul {
-  border-left: .125em dashed $secondary;
-    margin: 3em;
-    padding: 1em 2em;
-    position: relative;
-    margin-left: 10em;
-}
-
-.timeline>ul>li {
-  margin-bottom: 3em;
-    background: rgba(255,255,255,.5);
-    padding: .8em 1.5em;
-    position: relative;
-}
-
-.timeline>ul>li>p {
-  margin: 0;
-}
-
-.timeline>ul>li>p:first-child {
-  font-weight: bold;
-}
-
-.timeline>ul>li>ul>li {
-  font-weight: normal;
-    position: relative;
-}
-
-.timeline .time {
-  position: absolute;
-    top: 0;
-    left: -34px;
-    border-left: .125rem solid $secondary;
-    height: 100%;
-    font-weight: normal;
-    font-size: .7em;
-    text-align: right;
-}
-
-.timeline>ul>li>ul>li p ~ p {
-  font-size: .8em;
-    margin: 0;
-    margin-left: 1rem;
-}
-
-.timeline>ul>li>ul>li p:first-child {
-  margin-bottom: 0;
-}
-
-.timeline>ul>li>p:first-child ~ p {
-  font-size: .8em;
-    margin: 0;
-}
-
-.timeline>ul>li>ul>li:before {
-  position: absolute;
-    top: 0;
-    content: '';
-    width: 6px;
-    height: 6px;
-    left: -3.7em;
-    display: block;
-    border-radius: 50%;
-    background: $secondary;
-
-}
-
-.timeline .time:before,
-.timeline .time:after {
-  position: absolute;
-    top: 0;
-    content: '';
-    width: 10px;
-    height: 10px;
-    left: -8px;
-    border: 2px solid $secondary;
-    display: block;
-    border-radius: 50%;
-    background: white;
-}
-
-.timeline .time:after {
-  top: 100%;
-}
-
-.timeline .time span {
-  position: absolute;
-    left: -8em;
-    top: 0;
-}
-
-.time .end {
-  top: 100% !important;
+  margin-left:                  -$item-margin;
+  margin-right:                  -$item-margin;
 }
 
 .progress {
-  display: inline-block;
-    background: mix($shaded, $background, 30%);
-    width: 10em;
-    height: .8em;
-    border-radius: 1em;
-    overflow: hidden;
-    background-clip: border-box;
-    clip-path: inset(0 0 0 0 round 100px);
+  border:                      1px solid $black;
+  width:                       8rem;
+  height:                      $progress-bar-height;
+  border-radius:               $progress-bar-height / 3;
+  div                          {background: $gray; height: 100%}
 }
 
-.progress>* {
-  display: inline-block;
-    height: 1em;
-    background: $secondary;
+// Wide screens
+// weasyprint doesn't support media queries :'( 
+
+$title-width: 12rem;
+$title-margin: 4rem;
+
+h2 {
+  float: left;
+  width: $title-width;
+  margin-top: 0;
+  text-align: right;
 }
 
-td {
-  padding: .3em 1.5em;
+h2 ~ * {
+  padding-left: $title-width + $title-margin;
+  margin: 1.618rem;
+  margin-bottom: 1.618rem * 2;
 }
 
-tr.sep {
-  border-bottom: .8em solid $background;
+#corner {
+  position: absolute;
+  top: 0;
+  right: 4rem;
 }
 
-table {
-}
-
-.skills ul {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 3em;
-    flex-flow: justify-content;
-    justify-content: center;
-    align-items: center;
-}
-
-.skills li {
-  display: inline-block;
-}
-
-.skills li strong {
-  display: inline-block;
-    margin: 0.2em .2em;
-    padding: 0.5em;
-    background: $secondary;
-    color: $background;
-    border-radius: 5%;
-    font-weight: bold;
-}
-
-.skills li em {
-  display: inline-block;
-    margin: 0.2em .2em;
-    padding: 0.5em;
-    background: $secondary;
-    color: $background;
-    border-radius: 5%;
-    opacity: .8;
-    font-weight: normal;
-}
-
-.skills li span {
-  display: inline-block;
-    margin: 0.2em .2em;
-    padding: 0.5em;
-    background: $secondary;
-    color: $background;
-    border-radius: 5%;
-    opacity: .2;
-    font-weight: normal;
-}
-
-a {color: inherit}
-html {background: white}
-body {background: $background; color: $color;}
-h2 {color: $primary;}
-
-.alt p {
-  background: $primary;
-    color: $background;
+.timeline {
+  p {
     margin: 0;
-    padding: 1em;
-    text-align: center;
-}
+  }
 
-em {
-  font-weight: bold;
-}
+  position: relative;
 
-.alt em:not(:first-child) {
-  margin-left: 1em;
-}
+  &:before {
+    content: "";
+    display: block;
+    position: absolute;
+    background: silver;
+    width: 2px;
+    left: $bullet-width + $title-width + $title-margin;
+    top: 0;
+    bottom: 0;
+  }
 
-.attribs {
-  font-size: .6em;
-  margin: 0;
-  padding: 0;
-  clear: both;
-  text-align: center;
-  margin: 3em;
-  li {
-    display: inline;
+  // bullet
+  li:before {
+    margin-left: 1px;
+    position: absolute;
+    left: $bullet-width + $title-width + $title-margin - ($bullet-width / 2);
+    content: "";
+    display: block;
+    background: $gray;
+    border: 1px solid $black;
+    width: $bullet-width;
+    height: $bullet-width;
+    border-radius: $bullet-width;
+    box-sizing: border-box;
+    margin-top: .5rem;
+  }
 
-    &:after {
-      content: ";";
+  li li:before {
+    left: $title-width + $title-margin - ($small-bullet-width / 2) + $bullet-width;
+    width: $small-bullet-width;
+    height: $small-bullet-width;
+    border-radius: $small-bullet-width;
+    background: $black;
+  }
+
+  >ul>li {
+    margin-left: $bullet-width + $bullet-margin;
+    margin-top:  1rem;
+    margin-bottom:  1rem;
+    padding: .5rem 1rem;
+    background: #e9f0f3;
+  }
+
+  li ul li {
+    margin-bottom: 1rem;
+  }
+
+  li p, li li {
+    font-size: 1rem;
+  }
+
+  li>:first-child {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  li li>:first-child {
+    font-size: 1rem;
+  }
+
+  .time {
+    font-size: .8rem;
+    font-weight: normal;
+    position: absolute;
+    height: 100%;
+    display: inline-block;
+    left: $title-width;
+    width: $title-margin;
+    text-align: right;
+
+    span {
+      display: inline-block;
     }
   }
+}
 
-  p {
-    display: inline;
+/* Can't do mobile first because of weasyprint :( */
+@media screen and (max-width: 850px) {
+  h2 {
+    width: auto;
+    float: none;
+    position: static;
+    text-align: left;
+  }
+
+  h2 ~ div, h2 ~ ul {
+    padding-left: 0;
+  }
+
+  .timeline:before {
+    left: $bullet-width;
+  }
+
+  .timeline li:before {
+    left: $bullet-width - ($bullet-width / 2);
+  }
+  .timeline li li:before {
+    left: - ($small-bullet-width / 2) + $bullet-width;
+  }
+
+  .timeline .time {
+    left: 0 - $bullet-margin * 2;
+  }
+
+  .progress {
+    width:                       8rem * 2 / 3;
   }
 }
 
-@page {
-  size: A4;
+@media screen and (max-width: 700px) {
+#corner {
+  position: static;
+}
+
+h1 {
+  margin-bottom: $big-title;
+}
+}
+
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 16px;
+  }
+
+  body {
+    padding: .5rem .5rem;
+  }
+
+  .timeline .time {
+    left: 0 - $bullet-margin;
+    margin-top: 1rem;
+  }
+
+  .progress {
+    width:                       3rem;
+  }
+
+}
+
+// Color adjustments for print
+
+.timeline, .progress, .compact {
+  -webkit-print-color-adjust: exact !important;
+  color-adjust: exact !important;
+}
+
+.top-button {
+  font-size: .8rem;
+  position: fixed;
+  top: .5rem;
+  right: 1rem;
+  color: inherit;
+  text-decoration: none;
+  background: $white;
+  padding: .1rem .3rem;
+  border-radius: .3rem;
+  background: -webkit-linear-gradient(top,$white,#e3e3e3);
+  background: -o-linear-gradient(top,$white,#e3e3e3);
+  background: -moz-linear-gradient(top,$white,#e3e3e3);
+  background: linear-gradient(to bottom, $white, #e3e3e3);
+  box-shadow: 1px 2px 4px 1px #0000004d;
+  z-index: 10000;
+
+  img {
+    display: inline-block;
+    width: .8rem;
+    height: .8rem;
+    margin-bottom: -.1rem;
+  }
+
+  &:active {
+    background: -webkit-linear-gradient(top,#e3e3e3,#e3e3e3);
+    background: -o-linear-gradient(top,#e3e3e3,#e3e3e3);
+    background: -moz-linear-gradient(top,#e3e3e3,#e3e3e3);
+    background: linear-gradient(to bottom, #e3e3e3, #e3e3e3);
+    box-shadow: 0 0 0 black;
+  }
 }
 
 @media print {
-  body {
-    background: $print-background;
-    font-size: 12px;
-  }
-
-  .timeline>ul>li {
-    background: mix($secondary, $print-background, 15%);
-  }
-
-  tr.sep {
-    border-bottom: .8em solid $print-background;
-  }
-
-  h1, h2, h3, h4, h5 {
-    page-break-after: avoid;
-  }
-
-  table, figure, body>div {
-    page-break-inside: avoid;
-  }
-
-  body {
-      margin: 0;
-  }
-
-  h2 {
-    float: left;
-    width: 12em;
-    position: sticky;
-    top: 0;
-    text-align: right;
-  }
-
-  h2 + * {
-    margin-left: 18em;
-  }
-
-  .icon {
-    width: 6em;
-    height: 6em;
-    margin: 1.5em;
-    display: block;
+  .top-button {
+    display: none;
   }
 }
+
+

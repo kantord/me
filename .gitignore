@@ -1,4 +1,2 @@
-/dist/*.html
-/dist/*.css
 .sass-cache/
-/dist/cv.pdf
+dist/

@@ -1,28 +1,69 @@
 # Dániel Kántor
 
-- <img src="./003-cityscape.svg" alt="" class=icon> Budapest-based
-- <img src="./002-browser.svg" alt="" class=icon> Full stack developer
-- <img src="./001-language.svg" alt="" class=icon> Language lover
-- <img src="./books.svg" alt="" class=icon> MOOC junkie
 
-<div class=alt>
+<a class=top-button href="http://daniel-kantor.com/cv/cv_daniel_kantor_developer.pdf"><img src="pdf.svg"></img> Download PDF</a>
 
-*Full name*: Dániel Kántor
-*Email*: cv@daniel-kantor.com
-*Location*: Budapest
-*Date of Birth*: 1993-05-28
+<div>
+
+<div id="corner">
+
+
+*Full name*: Dániel Kántor <br>
+*Email*: cv@daniel-kantor.com <br>
+*Location*: Budapest, Hungary <br>
+*Date of Birth*: May 1993 <br>
+
+</div>
+
+<div>
+
+## Skills
+
+<div class="compact">
+
+- **Python**
+- **JavaScript**
+- **CSS**
+- **Linux**
+- **HTML5**
+- **Django**
+- **Web Scraping**
+- *bash*
+- *d3*
+- *PostgreSQL*
+- *Vim*
+- *Arch Linux*
+- *Git*
+- *ETL*
+- *DocRaptor*
+- *PrinceXML*
+- <span>Haskell</span>
+- <span>React</span>
+- <span>NodeJS</span>
+- <span>Electron</span>
+
+</div>
 
 
 </div>
 
 <div>
 
+## References
+
+- Check out [my pet project on GitHub](https://github.com/kantord/just-dashboard)
+
+</div>
+
+<div>
+
+
 ## Employment history
 <div class="timeline">
 
 - Mito <span class=time><span>Present</span><span class=end>2016 Sep</span></span>
 
-    Data visualizaton and ETL using Python and Chartio
+    Data visualizaton and ETL using Python, Chartio and d3.js
 
 - Maven 7 <span class=time><span>2016 Sep</span><span class=end>2013 Mar</span></span>
 
@@ -32,7 +73,7 @@
 
     - Diktiolabs
 
-        Data collection, data analysis using Python and Selenium; web development
+        Data collection, data analysis using Python and Selenium; web development; data visualization using d3.js
 
     - FirmNetOnline
         
@@ -44,92 +85,54 @@
 
 <div>
 
-## Skills
-
-<div class="skills">
-
-- **Python**
-- **JavaScript**
-- **CSS**
-- **Linux**
-- **HTML5**
-- **Django**
-- **Web Scraping**
-- *Vim*
-- *bash*
-- *MySQL*
-- *Arch Linux*
-- *Git*
-- *Haskell*
-- *ETL*
-- *DocRaptor*
-- *PrinceXML*
-- <span>React</span>
-- <span>NodeJS</span>
-- <span>Electron</span>
-
-</div>
-
-
-</div>
-
-
-<div>
-
 ## Language background
 <div>
     <table>
         <tr>
             <td><div class="progress"><div style="width:100%"></div></div></td>
             <td>Hungarian</td>
-            <td>Native proficiency</td>
+            <td>Native</td>
         </tr>
         <tr class="sep">
             <td><div class="progress"><div style="width:90%"></div></div></td>
             <td>English</td>
-            <td>Professional proficiency</td>
+            <td>Proficient user</td>
         </tr>
         <tr>
-            <td><div class="progress"><div style="width:60%"></div></div></td>
-            <td>Portuguese</td>
-            <td>Elementary proficiency</td>
-        </tr>
-        <tr>
-            <td><div class="progress"><div style="width:40%"></div></div></td>
+            <td><div class="progress"><div style="width:50%"></div></div></td>
             <td>Spanish</td>
-            <td></td>
+            <td>Independent user</td>
         </tr>
         <tr>
-            <td><div class="progress"><div style="width:20%"></div></div></td>
+            <td><div class="progress"><div style="width:45%"></div></div></td>
+            <td>Portuguese</td>
+            <td>Independent user</td>
+        </tr>
+        <tr>
+            <td><div class="progress"><div style="width:25%"></div></div></td>
             <td>Catalan</td>
-            <td></td>
+            <td>Basic user</td>
         </tr>
         <tr>
-            <td><div class="progress"><div style="width:10%"></div></div></td>
+            <td><div class="progress"><div style="width:5%"></div></div></td>
             <td>German</td>
-            <td></td>
+            <td>Basic user</td>
         </tr>
     </table>
 </div>
 
 </div>
 
-<div>
+
 
 ## Links
 
-- <a href="cv.pdf">Download PDF version</a>
+
+- <a href="http://daniel-kantor.com/cv/cv_daniel_kantor_developer.pdf">PDF version</a>
+- <a href="http://daniel-kantor.com/cv/">Online version</a>
+- <a href="https://github.com/kantord">GitHub profile</a>
+- <a href="https://www.linkedin.com/in/dániel-kántor-b8975a39/">LinkedIn profile</a>
 
 </div>
-
-
-
-<div class=attribs>
-
-Image attributions (in order of appearance)
-- designed by Popcorn Arts from Flaticon
-- designed by Vectors Market from Flaticon
-- designed by Freepik from Flaticon
-- designed by Pixel Perfect from Flaticon
 
 </div>

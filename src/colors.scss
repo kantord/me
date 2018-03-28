@@ -1,23 +1,4 @@
-/* Coolors Exported Palette - coolors.co/2d2d2a-b07156-326273-c14953-f1ecdf */
-
-/* HSL */
-$color1: hsla(60%, 3%, 17%, 1);
-$color2: hsla(18%, 36%, 51%, 1);
-$color3: hsla(196%, 39%, 32%, 1);
-$color4: hsla(355%, 49%, 52%, 1);
-$color5: hsla(43%, 39%, 91%, 1);
-
-/* RGB */
-$color1: rgba(45, 45, 42, 1);
-$color2: rgba(176, 113, 86, 1);
-$color3: rgba(50, 98, 115, 1);
-$color4: rgba(193, 73, 83, 1);
-$color5: rgba(241, 236, 223, 1);
-
-
-$background: $color5;
-$print-background: white;
-$color:      $color1;
-$primary:    $color4;
-$secondary:  $color3;
-$shaded:     $color2;
+$black:                         #243b55;
+$white:                         #F9F9F9;
+$gray:                          #7c9fb0;
+$orange:                        #e16552;
