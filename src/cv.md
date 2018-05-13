@@ -7,8 +7,6 @@
 
 <div id="corner">
 
-
-*Full name*: Dániel Kántor <br>
 *Email*: cv@daniel-kantor.com <br>
 *Location*: Budapest, Hungary <br>
 *Date of Birth*: May 1993 <br>
@@ -22,10 +20,12 @@
 <div class="compact">
 
 - **Python**
-- **JavaScript**
-- **CSS**
+- *PostgreSQL*
 - **Linux**
+- *ETL*
 - **HTML5**
+- **CSS**
+- **JavaScript**
 - **Django**
 - **Web Scraping**
 - *bash*
@@ -34,13 +34,13 @@
 - *Vim*
 - *Arch Linux*
 - *Git*
-- *ETL*
 - *DocRaptor*
-- *PrinceXML*
 - <span>Haskell</span>
 - <span>React</span>
 - <span>NodeJS</span>
 - <span>Electron</span>
+- *PrinceXML*
+- *Vim*
 
 </div>
 
@@ -61,7 +61,11 @@
 ## Employment history
 <div class="timeline">
 
-- Mito <span class=time><span>Present</span><span class=end>2016 Sep</span></span>
+- Kiwi.com <span class=time><span>Present</span><span class=end>2018 Mar</span></span>
+
+    Frontend development using React
+
+- Mito <span class=time><span>2018 Mar</span><span class=end>2016 Sep</span></span>
 
     Data visualizaton and ETL using Python, Chartio and d3.js
 
@@ -105,17 +109,12 @@
         </tr>
         <tr>
             <td><div class="progress"><div style="width:45%"></div></div></td>
-            <td>Portuguese</td>
-            <td>Independent user</td>
-        </tr>
-        <tr>
-            <td><div class="progress"><div style="width:25%"></div></div></td>
             <td>Catalan</td>
             <td>Basic user</td>
         </tr>
         <tr>
-            <td><div class="progress"><div style="width:5%"></div></div></td>
-            <td>German</td>
+            <td><div class="progress"><div style="width:25%"></div></div></td>
+            <td>Portuguese</td>
             <td>Basic user</td>
         </tr>
     </table>
