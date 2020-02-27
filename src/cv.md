@@ -8,7 +8,7 @@
 <div id="corner">
 
 *Email*: cv@daniel-kantor.com <br>
-*Location*: Budapest, Hungary <br>
+*Location*: Barcelona <br>
 *Date of Birth*: May 1993 <br>
 
 </div>
@@ -19,26 +19,26 @@
 
 <div class="compact">
 
-- **Python**
+- **React**
+- *Svelte*
+- <span>NodeJS</span>
+- <span>Electron</span>
+- <span>Python</span>
 - *PostgreSQL*
-- **Linux**
+- *Linux*
 - *ETL*
 - **HTML5**
 - **CSS**
 - **JavaScript**
-- **Django**
-- **Web Scraping**
+- *Django*
+- *Web Scraping*
 - *bash*
 - *d3*
 - *PostgreSQL*
 - *Vim*
-- *Arch Linux*
+- Arch Linux
 - *Git*
 - *DocRaptor*
-- <span>Haskell</span>
-- <span>React</span>
-- <span>NodeJS</span>
-- <span>Electron</span>
 - *PrinceXML*
 - *Vim*
 
@@ -51,7 +51,11 @@
 
 ## References
 
-- Check out [my pet project on GitHub](https://github.com/kantord/just-dashboard)
+I have some pet projects where you can see my work:
+
+- [LibreLingo](https://github.com/kantord/LibreLingo) an experiment to create a community driven language-learning platform 
+- [just-dashboard](https://github.com/kantord/just-dashboard) create dashboards in minutes using YAML or JSON files
+- [emuto](https://github.com/kantord/emuto) an experimental programming language for transforming JSON files
 
 </div>
 
