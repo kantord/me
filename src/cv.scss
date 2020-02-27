@@ -19,7 +19,7 @@ $progress-bar-height:        .5rem;
 }
 
 body                             {font-size: $base-font-size; padding: 1rem;
-  line-height: 1.75; font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.45; font-family: 'Source Sans Pro', sans-serif;
   position: relative;
   }
 
@@ -313,3 +313,7 @@ h1 {
 }
 
 
+
+div p {
+	margin-bottom: 0;
+}

@@ -52,10 +52,9 @@
 ## References
 
 I have some pet projects where you can see my work:
-
-- [LibreLingo](https://github.com/kantord/LibreLingo) an experiment to create a community driven language-learning platform 
-- [just-dashboard](https://github.com/kantord/just-dashboard) create dashboards in minutes using YAML or JSON files
-- [emuto](https://github.com/kantord/emuto) an experimental programming language for transforming JSON files
+- [LibreLingo](https://github.com/kantord/LibreLingo) - an experiment to create a community driven *language-learning platform*
+- [just-dashboard](https://github.com/kantord/just-dashboard) - create *dashboards* in minutes using YAML or JSON files
+- [emuto](https://github.com/kantord/emuto) - an experimental *programming language* for transforming JSON files
 
 </div>
 
@@ -108,17 +107,12 @@ I have some pet projects where you can see my work:
         </tr>
         <tr>
             <td><div class="progress"><div style="width:50%"></div></div></td>
-            <td>Spanish</td>
-            <td>Independent user</td>
-        </tr>
-        <tr>
-            <td><div class="progress"><div style="width:45%"></div></div></td>
             <td>Catalan</td>
             <td>Basic user</td>
         </tr>
         <tr>
-            <td><div class="progress"><div style="width:25%"></div></div></td>
-            <td>Portuguese</td>
+            <td><div class="progress"><div style="width:45%"></div></div></td>
+            <td>Spanish</td>
             <td>Basic user</td>
         </tr>
     </table>
