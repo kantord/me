@@ -11,6 +11,12 @@ $small-bullet-width: $bullet-width / 2;
 $bullet-margin: 2rem;
 $progress-bar-height:        .5rem;
 
+// Wide screens
+// weasyprint doesn't support media queries :'( 
+
+$title-width: 12rem;
+$title-margin: 4rem;
+
 
 
 * {
@@ -47,6 +53,15 @@ background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, F
 
 h1                               {font-size: $big-title; margin: $big-title 0;
   line-height: 1; color: $orange; margin-bottom: 5.5rem}
+
+h1 span {
+	font-size: .5em;
+	display: block;
+	color: $gray;
+	text-align: right;
+	width: $title-width + .82rem;
+	margin-bottom: -1em;
+}
 
 h2                               {font-size: $small-title; margin: 1.618rem 0;
   line-height: 1; color: $orange; position: sticky; top: 0;}
@@ -89,11 +104,7 @@ p                               {margin: 2rem 0;}
   div                          {background: $gray; height: 100%}
 }
 
-// Wide screens
-// weasyprint doesn't support media queries :'( 
 
-$title-width: 12rem;
-$title-margin: 4rem;
 
 h2 {
   float: left;

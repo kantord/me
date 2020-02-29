@@ -1,4 +1,4 @@
-# Dániel Kántor
+# Dániel Kántor <span>developer</span>
 
 
 <a class=top-button href="http://daniel-kantor.com/cv/cv_daniel_kantor_developer.pdf"><img src="pdf.svg"></img> Download PDF</a>
