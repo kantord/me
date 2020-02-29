@@ -105,7 +105,7 @@ h2 {
 h2 ~ * {
   padding-left: $title-width + $title-margin;
   margin: 1.618rem;
-  margin-bottom: 1.618rem * 2;
+  margin-bottom: 1.618rem * 1.9;
 }
 
 #corner {
@@ -316,4 +316,8 @@ h1 {
 
 div p {
 	margin-bottom: 0;
+}
+
+p ~ ul {
+    margin-top: .8em;
 }

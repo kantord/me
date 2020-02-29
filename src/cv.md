@@ -30,15 +30,18 @@
 - **HTML5**
 - **CSS**
 - **JavaScript**
+- *flow*
+- *GraphQL*
+- Next.js
+- Webpack
 - *Django*
 - *Web Scraping*
-- *bash*
 - *d3*
 - *PostgreSQL*
 - *Vim*
 - Arch Linux
+- Docker
 - *Git*
-- *DocRaptor*
 - *PrinceXML*
 - *Vim*
 
@@ -133,3 +136,4 @@ I have some pet projects where you can see my work:
 </div>
 
 </div>
+
