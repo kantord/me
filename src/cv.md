@@ -38,7 +38,6 @@
 - *Web Scraping*
 - *d3*
 - *PostgreSQL*
-- *Vim*
 - Arch Linux
 - Docker
 - *Git*
