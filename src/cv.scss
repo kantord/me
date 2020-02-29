@@ -209,7 +209,7 @@ h2 ~ * {
     text-align: left;
   }
 
-  h2 ~ div, h2 ~ ul {
+  h2 ~ * {
     padding-left: 0;
   }
 
@@ -225,7 +225,11 @@ h2 ~ * {
   }
 
   .timeline .time {
+    margin-top: 2rem !important;
     left: 0 - $bullet-margin * 2;
+    height: 3em;
+    background: #f9f9f9;
+    z-index: 1000;
   }
 
   .progress {
