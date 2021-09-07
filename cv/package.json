@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "name": "cv",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:kantord/cv.git",
+  "author": "Dániel Kántor <git@daniel-kantor.com>",
+  "license": "none",
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
