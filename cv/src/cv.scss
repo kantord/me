@@ -128,6 +128,64 @@ h2 ~ * {
   }
 }
 
+.cards {
+  position: relative;
+  left: -18.25rem;
+  width: 50.56rem;
+  width: calc(100% - 1rem);
+
+  ul {
+    display: flex;
+
+    li {
+      flex-basis: 100%;
+      margin-left: 1em;
+
+      a {
+        height: 12rem;
+        padding: 1rem;
+        padding-bottom: 2rem;
+        padding-bottom: calc(1rem);
+        overflow: hidden;
+        display: flex;
+        background: #e9f0f3;
+        flex-direction: column;
+        text-decoration: none;
+        color: inherit;
+
+        .img {
+          align-self: center;
+          display: block;
+          width: 14rem;
+          width: calc(100%);
+          height: 64px;
+          object-fit: cover;
+          background-size: cover;
+          background-position: center center;
+          margin-bottom: 1rem;
+        }
+
+        >* {
+          display: flex;
+
+          &:nth-child(2) {
+            font-size: 1rem;
+            font-weight: 600;
+          }
+
+          &:nth-child(3) {
+            font-size: .9rem;
+          }
+
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
 .timeline {
   p {
     margin: 0;

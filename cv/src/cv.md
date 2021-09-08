@@ -53,12 +53,17 @@
 
 <div>
 
-## References
+## Pet projects
 
-I have some pet projects where you can see my work:
-- [LibreLingo](https://librelingo.app/) - an experiment to create a community driven *language-learning platform*
-- [just-dashboard](https://kantord.github.io/just-dashboard/) - create *dashboards* in minutes using YAML or JSON files
-- [emuto](https://kantord.github.io/emuto/) - an experimental *programming language* for transforming JSON files
+&nbsp;
+
+<div class="cards">
+
+- [<span class="img" style="background-image: url('https://librelingo.app/images/cat3_tiny.jpg');"></span><span>LibreLingo</span><span>community-owned language-learning platform</span>](https://librelingo.app/)
+- [<span class="img" style="background-image: url('https://librelingo.app/images/mascot-jetpack-noshadow.svg');"></span><span>just-dashboard</span><span>create dashboards in minutes using YAML files</span>](https://kantord.github.io/just-dashboard/)
+- [<span class="img" style="background-image: url('https://librelingo.app/images/mascot-jetpack-noshadow.svg');"></span><span>emuto</span><span>and experimental programming language for transforming JSON files</span>](https://kantord.github.io/emuto/)
+
+</div>
 
 </div>
 
