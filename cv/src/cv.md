@@ -1,7 +1,7 @@
 # Dániel Kántor <span>developer</span>
 
 
-<a class=top-button href="http://daniel-kantor.com/cv/cv_daniel_kantor_developer.pdf"><img src="pdf.svg"></img> Download PDF</a>
+<a class=top-button href="http://daniel-kantor.com/cv/cv_daniel_kantor_developer.pdf" download target="blank"><img src="pdf.svg"></img> Download PDF</a>
 
 <div>
 
@@ -138,7 +138,7 @@
 ## Links
 
 
-- <a href="http://daniel-kantor.com/cv/cv_daniel_kantor_developer.pdf">PDF version</a>
+- <a href="http://daniel-kantor.com/cv/cv_daniel_kantor_developer.pdf" target="blank" download>PDF version</a>
 - <a href="http://daniel-kantor.com/cv/">Online version</a>
 - <a href="https://github.com/kantord">GitHub profile</a>
 - <a href="https://www.linkedin.com/in/dániel-kántor-b8975a39/">LinkedIn profile</a>
