@@ -8,7 +8,7 @@
 <div id="corner">
 
 *Email*: cv@daniel-kantor.com <br>
-*Location*: Barcelona <br>
+*Location*: Barcelona, Spain <br>
 *Date of Birth*: May 1993 <br>
 
 </div>
@@ -25,9 +25,7 @@
 - <span>Electron</span>
 - <span>Python</span>
 - *PostgreSQL*
-- *Linux*
-- *ETL*
-- **HTML5**
+- *TypeScript*
 - **CSS**
 - **JavaScript**
 - *flow*
@@ -40,7 +38,7 @@
 - *Web Scraping*
 - *d3*
 - *PostgreSQL*
-- Arch Linux
+- Linux
 - Docker
 - *Git*
 - *PrinceXML*
@@ -59,9 +57,9 @@
 
 <div class="cards">
 
-- [<span class="img" style="background-image: url('https://librelingo.app/images/cat3_tiny.jpg');"></span><span>LibreLingo</span><span>community-owned language-learning platform</span>](https://librelingo.app/)
-- [<span class="img" style="background-image: url('https://librelingo.app/images/mascot-jetpack-noshadow.svg');"></span><span>just-dashboard</span><span>create dashboards in minutes using YAML files</span>](https://kantord.github.io/just-dashboard/)
-- [<span class="img" style="background-image: url('https://librelingo.app/images/mascot-jetpack-noshadow.svg');"></span><span>emuto</span><span>and experimental programming language for transforming JSON files</span>](https://kantord.github.io/emuto/)
+- [<span class="img" style="background-image: url('librelingo.png');"></span><span>LibreLingo</span><span>community-owned language-learning platform</span>](https://librelingo.app/)
+- [<span class="img" style="background-image: url('just_dashboard.png');"></span><span>just-dashboard</span><span>create dashboards in minutes using YAML files</span>](https://kantord.github.io/just-dashboard/)
+- [<span class="img" style="background-image: url('emuto.png');"></span><span>emuto</span><span>and experimental programming language for transforming JSON files</span>](https://kantord.github.io/emuto/)
 
 </div>
 

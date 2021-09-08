@@ -17,6 +17,7 @@ dist/_inline_css.html: dist/cv.css
 
 dist/index.html: src/header.html dist/_tmp.html dist/_inline_css.html src/footer.html
 	mkdir -p dist
+	cp src/*.png dist
 	cat $^ > $@
 
 dist/cv_daniel_kantor_developer.pdf: dist/index.html dist/cv.css
