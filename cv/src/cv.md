@@ -32,6 +32,8 @@
 - **JavaScript**
 - *flow*
 - *GraphQL*
+- *React Query*
+- OpenApi
 - Next.js
 - Webpack
 - *Django*
@@ -68,7 +70,13 @@ I have some pet projects where you can see my work:
 
 - Kiwi.com <span class=time><span>Present</span><span class=end>2018 Mar</span></span>
 
-    Frontend development using React
+    - Manage My Booking
+
+        Frontend using TypeScript, Next.js, React, Relay and React Query; backend-for-frontend layer using Python and Swagger
+
+    - SmartFAQ
+
+        Frontend development using Flow, React and Relay; development of a GraphQL (proxy) server
 
 - Mito <span class=time><span>2018 Mar</span><span class=end>2016 Sep</span></span>
 
@@ -82,7 +90,7 @@ I have some pet projects where you can see my work:
 
     - Diktiolabs
 
-        Data collection, data analysis using Python and Selenium; web development; data visualization using d3.js
+        Data collection and data analysis using Python and Selenium; web development; data visualization using d3.js
 
     - FirmNetOnline
         

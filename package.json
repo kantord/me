@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "deploy": "gh-pages -d dist"
+    "deploy": "mkdir -p dist/cv && cp -r ./cv/dist/* ./dist/cv && gh-pages -d dist"
   },
   "name": "cv",
   "version": "1.0.0",
