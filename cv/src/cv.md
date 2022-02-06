@@ -7,6 +7,7 @@
 
 <div id="corner">
 
+www.daniel-kantor.com/cv <br>
 *Email*: cv@daniel-kantor.com <br>
 *Location*: Barcelona, Spain <br>
 *Date of Birth*: May 1993 <br>
@@ -57,7 +58,7 @@
 
 <div class="cards">
 
-- [<span class="img" style="background-image: url('librelingo.png');"></span><span>LibreLingo</span><span>community-owned language-learning platform</span>](https://librelingo.app/)
+- [<span class="img" style="background-image: url('librelingo.png');"></span><span>LibreLingo</span><span>community-owned language-learning platform</span>](https://github.com/LibreLingo)
 - [<span class="img" style="background-image: url('just_dashboard.png');"></span><span>just-dashboard</span><span>create dashboards in minutes using YAML files</span>](https://kantord.github.io/just-dashboard/)
 - [<span class="img" style="background-image: url('emuto.png');"></span><span>emuto</span><span>and experimental programming language for transforming JSON files</span>](https://kantord.github.io/emuto/)
 
@@ -70,6 +71,11 @@
 
 ## Employment history
 <div class="timeline">
+
+- Kumux <span class=time><span>Present</span><span class=end>2021 Nov</span></span>
+
+    Tech lead
+
 
 - Kiwi.com <span class=time><span>Present</span><span class=end>2018 Mar</span></span>
 
@@ -105,32 +111,6 @@
 
 <div>
 
-## Language background
-<div>
-    <table>
-        <tr>
-            <td><div class="progress"><div style="width:100%"></div></div></td>
-            <td>Hungarian</td>
-            <td>Native</td>
-        </tr>
-        <tr class="sep">
-            <td><div class="progress"><div style="width:90%"></div></div></td>
-            <td>English</td>
-            <td>Proficient user</td>
-        </tr>
-        <tr>
-            <td><div class="progress"><div style="width:50%"></div></div></td>
-            <td>Catalan</td>
-            <td>Basic user</td>
-        </tr>
-        <tr>
-            <td><div class="progress"><div style="width:45%"></div></div></td>
-            <td>Spanish</td>
-            <td>Basic user</td>
-        </tr>
-    </table>
-</div>
-
 </div>
 
 
@@ -138,10 +118,8 @@
 ## Links
 
 
-- <a href="http://daniel-kantor.com/cv/cv_daniel_kantor_developer.pdf" target="blank" download>PDF version</a>
-- <a href="http://daniel-kantor.com/cv/">Online version</a>
-- <a href="https://github.com/kantord">GitHub profile</a>
-- <a href="https://www.linkedin.com/in/dániel-kántor-b8975a39/">LinkedIn profile</a>
+- <a href="https://github.com/kantord">GitHub</a>
+- <a href="https://www.linkedin.com/in/dániel-kántor-b8975a39/">LinkedIn</a>
 
 </div>
 

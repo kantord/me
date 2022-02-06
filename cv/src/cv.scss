@@ -103,7 +103,7 @@ p                               {margin: 2rem 0;}
 
 .progress {
   border:                      1px solid $black;
-  width:                       8rem;
+  width:                       3rem;
   height:                      $progress-bar-height;
   border-radius:               $progress-bar-height / 3;
   div                          {background: $gray; height: 100%}
@@ -402,3 +402,24 @@ div p {
 p ~ ul {
     margin-top: .8em;
 }
+
+.progress-tables {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  table {
+    float: left;
+    width: 210px;
+    &:first-child { margin-right: 1rem; }
+
+    tr {
+      td {
+        font-size: .9rem;
+      }
+    }
+  }
+}
+
