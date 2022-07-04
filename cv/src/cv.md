@@ -60,7 +60,7 @@ www.daniel-kantor.com/cv <br>
 
 - [<span class="img" style="background-image: url('librelingo.png');"></span><span>LibreLingo</span><span>community-owned language-learning platform</span>](https://github.com/LibreLingo)
 - [<span class="img" style="background-image: url('just_dashboard.png');"></span><span>just-dashboard</span><span>create dashboards in minutes using YAML files</span>](https://kantord.github.io/just-dashboard/)
-- [<span class="img" style="background-image: url('emuto.png');"></span><span>emuto</span><span>and experimental programming language for transforming JSON files</span>](https://kantord.github.io/emuto/)
+- [<span class="img" style="background-image: url('emuto.png');"></span><span>emuto</span><span>an experimental programming language for transforming JSON files</span>](https://kantord.github.io/emuto/)
 
 </div>
 
@@ -74,10 +74,10 @@ www.daniel-kantor.com/cv <br>
 
 - Kumux <span class=time><span>Present</span><span class=end>2021 Nov</span></span>
 
-    Tech lead
+    Tech lead; managing the product development team. Tech stack: Python (Fastapi), Google Cloud, TypeScript, Node.js, Next.js, Gatsby
 
 
-- Kiwi.com <span class=time><span>Present</span><span class=end>2018 Mar</span></span>
+- Kiwi.com <span class=time><span>2021 Nov</span><span class=end>2018 Mar</span></span>
 
     - Manage My Booking
 
