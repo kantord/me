@@ -7,7 +7,7 @@ $base-font-size: 1rem;
 $small-title:    $base-font-size * $golden-ratio;
 $big-title:    $small-title * $golden-ratio;
 $bullet-width: .7rem;
-$small-bullet-width: $bullet-width / 2;
+$small-bullet-width: calc($bullet-width / 2);
 $bullet-margin: 2rem;
 $progress-bar-height:        .5rem;
 
@@ -105,7 +105,7 @@ p                               {margin: 2rem 0;}
   border:                      1px solid $black;
   width:                       3rem;
   height:                      $progress-bar-height;
-  border-radius:               $progress-bar-height / 3;
+  border-radius:               calc($progress-bar-height / 3);
   div                          {background: $gray; height: 100%}
 }
 
@@ -216,7 +216,7 @@ h2 ~ * {
   li:before {
     margin-left: 1px;
     position: absolute;
-    left: $bullet-width + $title-width + $title-margin - ($bullet-width / 2);
+    left: $bullet-width + $title-width + $title-margin - calc($bullet-width / 2);
     content: "";
     display: block;
     background: $gray;
@@ -229,7 +229,7 @@ h2 ~ * {
   }
 
   li li:before {
-    left: $title-width + $title-margin - ($small-bullet-width / 2) + $bullet-width;
+    left: $title-width + $title-margin - calc($small-bullet-width / 2) + $bullet-width;
     width: $small-bullet-width;
     height: $small-bullet-width;
     border-radius: $small-bullet-width;
@@ -295,10 +295,10 @@ h2 ~ * {
   }
 
   .timeline li:before {
-    left: $bullet-width - ($bullet-width / 2);
+    left: $bullet-width - calc($bullet-width / 2);
   }
   .timeline li li:before {
-    left: - ($small-bullet-width / 2) + $bullet-width;
+    left: - calc($small-bullet-width / 2) + $bullet-width;
   }
 
   .timeline .time {
@@ -310,7 +310,7 @@ h2 ~ * {
   }
 
   .progress {
-    width:                       8rem * 2 / 3;
+    width:                       8rem * calc(2 / 3);
   }
 }
 

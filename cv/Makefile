@@ -9,7 +9,7 @@ dist/_tmp.html: src/cv.md
 
 dist/cv.css: src/cv.scss dist/pdf.svg
 	mkdir -p dist
-	sass $< | minify --mime "text/css" > $@
+	sass $< > $@
 
 dist/_inline_css.html: dist/cv.css
 	mkdir -p dist
