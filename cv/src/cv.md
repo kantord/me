@@ -72,7 +72,14 @@ www.daniel-kantor.com/cv <br>
 ## Employment history
 <div class="timeline">
 
-- Kumux <span class=time><span>Present</span><span class=end>2021 Nov</span></span>
+- OLX Autos <span class=time><span>Present</span><span class=end>2022 Jul</span></span>
+
+    - Internal content management system
+
+      Building an internal content management system for several markets using Next.js
+
+
+- Kumux <span class=time><span>2022 Jul</span><span class=end>2021 Nov</span></span>
 
     Tech lead; managing the product development team. Tech stack: Python (Fastapi), Google Cloud, TypeScript, Node.js, Next.js, Gatsby
 

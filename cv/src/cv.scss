@@ -160,13 +160,12 @@ h2 ~ * {
         color: inherit;
 
         .img {
+          background-color: red;
           align-self: center;
           display: block;
-          width: 10rem;
-          width: calc(100%);
+          width: 9rem;
           height: 32px;
           height: calc(64px);
-          object-fit: cover;
           background-size: cover;
           background-position: center center;
           margin-bottom: 1rem;

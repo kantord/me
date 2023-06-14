@@ -9,7 +9,7 @@ dist/_tmp.html: src/cv.md
 
 dist/cv.css: src/cv.scss dist/pdf.svg
 	mkdir -p dist
-	sass $< > $@
+	sass $< | minify --css > $@
 
 dist/_inline_css.html: dist/cv.css
 	mkdir -p dist
@@ -22,7 +22,7 @@ dist/index.html: src/header.html dist/_tmp.html dist/_inline_css.html src/footer
 
 dist/cv_daniel_kantor_developer.pdf: dist/index.html dist/cv.css
 	mkdir -p dist
-	weasyprint $< $@ --base-url dist
+	weasyprint $< $@ --debug --verbose
 
 dist/pdf.svg: src/pdf.svg
 	mkdir -p dist
