@@ -74,7 +74,7 @@ www.daniel-kantor.com/cv <br>
 
 - OLX Autos <span class=time><span>Present</span><span class=end>2022 Jul</span></span>
 
-    - Internal content management system
+    - Internal Content Management System
 
       Building an internal content management system for several markets using Next.js
 
