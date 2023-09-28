@@ -21,19 +21,18 @@ www.daniel-kantor.com/cv <br>
 <div class="compact">
 
 - **React**
-- *Svelte*
-- <span>NodeJS</span>
-- <span>Electron</span>
-- <span>Python</span>
-- *PostgreSQL*
-- *TypeScript*
-- **CSS**
+- **Python**
+- **Next.js**
+- NodeJS
+- **TypeScript**
 - **JavaScript**
-- *flow*
+- *Svelte*
+- <span>Electron</span>
+- *PostgreSQL*
+- **CSS**
 - *GraphQL*
 - *React Query*
 - OpenApi
-- Next.js
 - Webpack
 - *Django*
 - *Web Scraping*
@@ -60,9 +59,17 @@ www.daniel-kantor.com/cv <br>
 
 - [<span class="img" style="background-image: url('librelingo.png');"></span><span>LibreLingo</span><span>community-owned language-learning platform</span>](https://github.com/LibreLingo)
 - [<span class="img" style="background-image: url('just_dashboard.png');"></span><span>just-dashboard</span><span>create dashboards in minutes using YAML files</span>](https://kantord.github.io/just-dashboard/)
-- [<span class="img" style="background-image: url('emuto.png');"></span><span>emuto</span><span>an experimental programming language for transforming JSON files</span>](https://kantord.github.io/emuto/)
 
 </div>
+
+<div class="cards">
+
+- [<span class="img" style="background-image: url('emuto.png');"></span><span>emuto</span><span>an experimental programming language for transforming JSON files</span>](https://kantord.github.io/emuto/)
+- [<span class="img" style="background-image: url('seagoat.png');"></span><span>SeaGOAT</span><span>AI-based local code search (grep-like)</span>](https://github.com/kantord/SeaGOAT)
+
+</div>
+
+
 
 </div>
 
@@ -76,19 +83,20 @@ www.daniel-kantor.com/cv <br>
 
     - Internal Content Management System
 
-      Building an internal content management system for several markets using Next.js
+      Building a web based interface that connects internal CMSs and databases to allow international teams to manage marketing projects autonomously.
+      Using mainly React, Next.js, MUI, Node
 
 
 - Kumux <span class=time><span>2022 Jul</span><span class=end>2021 Nov</span></span>
 
-    Tech lead; managing the product development team. Tech stack: Python (Fastapi), Google Cloud, TypeScript, Node.js, Next.js, Gatsby
+    Tech lead; managing the product team. Tech stack: Python (Fastapi), Google Cloud, TypeScript, Node.js, Next.js, Gatsby
 
 
 - Kiwi.com <span class=time><span>2021 Nov</span><span class=end>2018 Mar</span></span>
 
     - Manage My Booking
 
-        Frontend using TypeScript, Next.js, React, Relay and React Query; backend-for-frontend layer using Python and Swagger
+        Frontend using TypeScript, Next.js, React, React Query; backend-for-frontend layer using Python
 
     - SmartFAQ
 
@@ -96,7 +104,7 @@ www.daniel-kantor.com/cv <br>
 
 - Mito <span class=time><span>2018 Mar</span><span class=end>2016 Sep</span></span>
 
-    Data visualizaton and ETL using Python, Chartio and d3.js
+    Data visualizaton and ETL using Python, Chartio and d3.js. Admin systems using Django.
 
 - Maven 7 <span class=time><span>2016 Sep</span><span class=end>2013 Mar</span></span>
 
