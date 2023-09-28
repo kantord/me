@@ -117,11 +117,14 @@ www.daniel-kantor.com/cv <br>
 
 </div>
 
+<div>
+
 ## Publications
 
 
 - Co-authored <a href="https://iopscience.iop.org/article/10.1088/1755-1315/1099/1/012025/pdf">The circadian impact of computer monitors with different color configurations</a> A Huguet-Ferran et al 2022 IOP Conf. Ser.: Earth Environ. Sci. 1099 012025
 
+</div>
 
 <div>
 
