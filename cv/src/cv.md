@@ -73,6 +73,7 @@ www.daniel-kantor.com/cv <br>
     - Manage My Booking
 
         Frontend using TypeScript, Next.js, React, React Query; backend-for-frontend layer using Python + Flask. Test automation using Cypress.
+        Implementing an internal project template for other teams.
 
     - SmartFAQ
 
@@ -91,7 +92,7 @@ www.daniel-kantor.com/cv <br>
 
     - Diktiolabs
 
-        Data collection and data analysis using Python and Selenium; web development; data visualization using d3.js
+        Data collection and data analysis using Python and Selenium; web development; data visualization using d3.js. Development of landing pages.
 
     - FirmNetOnline
         
