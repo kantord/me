@@ -1,0 +1,61 @@
+@layer reset, base, tokens, recipes, utilities;
+
+@import './reset.css';
+
+@import './global.css';
+
+@import './tokens/index.css';
+
+@import './tokens/keyframes.css';
+
+@layer utilities {
+  .pos_relative {
+    position: relative
+    }
+
+  .max-w_8xl {
+    max-width: var(--sizes-8xl)
+    }
+
+  .mx_auto {
+    margin-inline: auto
+    }
+
+  .px_4 {
+    padding-inline: var(--spacing-4)
+    }
+
+  .bg_silver {
+    background: silver
+    }
+
+  .m_auto {
+    margin: auto
+    }
+
+  .max-w_700px {
+    max-width: 700px
+    }
+
+  .text_red {
+    color: red
+    }
+
+  @layer compositions {
+    .textStyle_body {
+      font-family: Shantell Sans Variable
+        }
+    }
+
+  @media screen and (min-width: 48em) {
+    .md\:px_6 {
+      padding-inline: var(--spacing-6)
+    }
+        }
+
+  @media screen and (min-width: 64em) {
+    .lg\:px_8 {
+      padding-inline: var(--spacing-8)
+    }
+        }
+}
