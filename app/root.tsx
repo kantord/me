@@ -9,17 +9,24 @@ import {
 } from "@remix-run/react";
 import styles from './index.css'
 import { cssBundleHref } from "@remix-run/css-bundle";
-import fontStyles from "@fontsource-variable/shantell-sans/index.css";
+import shantellSans from "@fontsource-variable/shantell-sans/index.css";
 import stylesCss from "styled-system/styles.css";
 import PageWrapper from "./components/PageWrapper";
+import { css } from "styled-system/css";
 
 
 export const links: LinksFunction = () => [
   { rel: 'stylesheet', href: styles },
-  { rel: 'stylesheet', href: fontStyles },
+  { rel: 'stylesheet', href: shantellSans },
   { rel: 'stylesheet', href: stylesCss },
   ...(cssBundleHref ? [{ rel: 'stylesheet', href: cssBundleHref }] : []),
 ]
+
+const backgroundStyles = css({
+  backgroundColor: "#ccc9a2",
+  // backgroundImage: "radial-gradient(#08091a3d 1px, #ccc9a2 1px)",
+  backgroundSize: "20px 20px",
+});
 
 
 export default function App() {
@@ -31,7 +38,7 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body>
+      <body className={backgroundStyles}>
         <PageWrapper>
           <Outlet />
           <ScrollRestoration />

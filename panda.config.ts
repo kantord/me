@@ -1,4 +1,5 @@
 import { defineConfig } from "@pandacss/dev";
+import { textStyles } from "~/textStyles";
 
 export default defineConfig({
   // Whether to use css reset
@@ -8,15 +9,16 @@ export default defineConfig({
   outExtension: "js",
   // Where to look for your css declarations
   include: [
-    "./app/routes/**/*.{ts,tsx,js,jsx}",
-    "./app/components/**/*.{ts,tsx,js,jsx}"
+    "./app/**/*.{ts,tsx,js,jsx}",
   ],
 
   // Files to exclude
   exclude: [],
 
   theme: {
-    extend: {}
+    extend: {
+      textStyles,
+    }
   },
 
 
