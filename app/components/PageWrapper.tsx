@@ -7,6 +7,7 @@ type Props = {
 
 export default function PageWrapper({ children }: Props) {
   return <div className={container({})}>
+
     {children}
   </div>
 }

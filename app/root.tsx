@@ -23,9 +23,9 @@ export const links: LinksFunction = () => [
 ]
 
 const backgroundStyles = css({
-  backgroundColor: "#ccc9a2",
-  // backgroundImage: "radial-gradient(#08091a3d 1px, #ccc9a2 1px)",
-  backgroundSize: "20px 20px",
+  backgroundColor: "#F2E2CE",
+  backgroundImage: "radial-gradient(#e3b38e 0.8px, #F2E2CE 0.8px)",
+  backgroundSize: "14px 14px",
 });
 
 
