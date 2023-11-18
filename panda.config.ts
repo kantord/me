@@ -18,6 +18,16 @@ export default defineConfig({
   theme: {
     extend: {
       textStyles,
+      tokens: {
+        colors: {
+          decorativeBackground: {
+            value: "#f7f0e8",
+          },
+          decorativeBackgroundDots: {
+            value: "#00000026",
+          },
+        },
+      }
     }
   },
 

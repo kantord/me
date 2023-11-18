@@ -1,16 +1,31 @@
 import { defineTextStyles } from '@pandacss/dev'
 
+
+const generateTextOutline = (n: number, color: string) => {
+  const shadows = [];
+
+  for (let x = 1; x <= n; x++) {
+    shadows.push(...[
+      [-x, -x], [x, -x], [0, -x],
+      [-x, 0], [x, 0], [0, 0],
+      [-x, x], [x, x], [0, x],
+    ])
+  }
+
+  return shadows.map(([x, y]) => `${x}px ${y}px 1px ${color}`).join(', ')
+}
+
 export const textStyles = defineTextStyles({
   body: {
     description: 'Used in paragraphs',
     value: {
-      color: '#2f2a22',
+      color: '#08138a',
       fontFamily: 'Shantell Sans Variable, sans-serif',
       fontWeight: '500',
       fontSize: '18px',
       lineHeight: '28px',
-      textAlign: 'justify',
       textJustify: 'inter-word',
+      textShadow: generateTextOutline(3, "#f7f0e8"),
     }
   },
   heading1: {
@@ -23,11 +38,7 @@ export const textStyles = defineTextStyles({
       lineHeight: '56px',
       marginBottom: '42px',
       marginTop: '70px',
-      textShadow: [
-        [-5, -5], [5, -5], [0, -5],
-        [-5, 0], [5, 0], [0, 0],
-        [-5, 5], [5, 5], [0, 5],
-      ].map(([x, y]) => `${x}px ${y}px #F2E2CE`).join(', '),
+      textShadow: generateTextOutline(3, "#f7f0e8"),
     }
   },
   heading2: {
@@ -40,6 +51,7 @@ export const textStyles = defineTextStyles({
       lineHeight: '56px',
       marginTop: '42px',
       marginBottom: '14px',
+      textShadow: generateTextOutline(3, "#f7f0e8"),
     }
   },
   heading3: {
@@ -52,6 +64,7 @@ export const textStyles = defineTextStyles({
       lineHeight: '56px',
       marginTop: '42px',
       marginBottom: '14px',
+      textShadow: generateTextOutline(3, "#f7f0e8"),
     }
   },
 })
