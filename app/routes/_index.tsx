@@ -10,7 +10,7 @@ export const meta: MetaFunction = () => {
 };
 
 const Paragraph = ({ children }: { children: ReactNode }) => {
-  return <p className={css({ textStyle: "body", marginBottom: '28px' })}>{children}</p>;
+  return <p className={css({ textStyle: "body", marginBottom: '28px' })}><span className={css({ background: 'token(colors.decorativeBackground)' })}>{children}</span></p>;
 }
 
 const Heading1 = ({ children }: { children: ReactNode }) => {

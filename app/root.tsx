@@ -23,8 +23,8 @@ export const links: LinksFunction = () => [
 ]
 
 const backgroundStyles = css({
-  backgroundColor: "token(colors.decorativeBackground)",
-  backgroundImage: "radial-gradient(token(colors.decorativeBackgroundDots) 0.8px, token(colors.decorativeBackground) 0.8px)",
+  backgroundColor: "colors.decorativeBackground",
+  backgroundImage: "radial-gradient(token(colors.decorativeBackgroundDots) 1.2px, token(colors.decorativeBackground) 0.8px)",
   backgroundSize: "14px 14px",
 });
 
