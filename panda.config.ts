@@ -20,11 +20,14 @@ export default defineConfig({
       textStyles,
       tokens: {
         colors: {
+          textColor: {
+            value: "#000000",
+          },
           decorativeBackground: {
-            value: "#f7f0e8",
+            value: "#ffffff",
           },
           decorativeBackgroundDots: {
-            value: "#00000026",
+            value: "#00000055",
           },
         },
       }

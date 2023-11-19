@@ -1651,12 +1651,16 @@ const tokens = {
     "value": "#020617",
     "variable": "var(--colors-slate-950)"
   },
+  "colors.textColor": {
+    "value": "#000000",
+    "variable": "var(--colors-text-color)"
+  },
   "colors.decorativeBackground": {
-    "value": "#f7f0e8",
+    "value": "#ffffff",
     "variable": "var(--colors-decorative-background)"
   },
   "colors.decorativeBackgroundDots": {
-    "value": "#00000026",
+    "value": "#00000055",
     "variable": "var(--colors-decorative-background-dots)"
   },
   "breakpoints.sm": {
