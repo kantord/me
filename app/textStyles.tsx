@@ -78,13 +78,5 @@ export const textStyles = defineTextStyles({
       ...commonHeaderStyles,
       ...generateFontConfig(2, { marginTopSplit: 3 / 4 }),
     }
-  },
-  heading4: {
-    description: 'Used in <h4 /> tags',
-    value: {
-      ...commonTextStyles,
-      ...commonHeaderStyles,
-      ...generateFontConfig(1, { marginTopSplit: 3 / 4 }),
-    }
-  },
+  }
 })
