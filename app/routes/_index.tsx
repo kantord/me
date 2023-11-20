@@ -22,10 +22,6 @@ const Paragraph = ({ children }: { children: ReactNode }) => {
   );
 };
 
-const Heading1 = ({ children }: { children: ReactNode }) => {
-  return <h1 className={css({ textStyle: "heading1" })}>{children}</h1>;
-};
-
 const Heading2 = ({ children }: { children: ReactNode }) => {
   return <h2 className={css({ textStyle: "heading2" })}>{children}</h2>;
 };
@@ -74,7 +70,6 @@ export default function Index() {
         vel pulvinar tellus. Maecenas felis urna, fringilla ut pellentesque a,
         gravida id elit. Quisque tempus arcu arcu.
       </Paragraph>
-      <Heading1>Hello World!</Heading1>
       <Paragraph>
         Nam tristique aliquam libero, feugiat posuere elit vulputate vel. Morbi
         tincidunt ex malesuada sem fringilla, vitae fringilla nibh tincidunt.
