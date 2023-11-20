@@ -1,3 +1,3 @@
 export default function PageHeader() {
-  return <b>Dániel Kántor</b>;
+  return <b data-testid="main-header">Dániel Kántor</b>;
 }

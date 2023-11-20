@@ -7,6 +7,7 @@ module.exports = {
   moduleNameMapper: {
     // Handle absolute imports in Remix
     "~/(.*)": "<rootDir>/app/$1",
+    "styled-system/(.*)": "<rootDir>/styled-system/$1",
   },
   setupFilesAfterEnv: ["<rootDir>/jest.setup.js"],
   testPathIgnorePatterns: [

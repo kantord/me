@@ -8,4 +8,10 @@ describe("<PageHeader />", () => {
 
     expect(screen.getByText(/Dániel Kántor/)).toBeVisible();
   });
+
+  it('has a test id', () => {
+    render(<PageHeader />);
+
+    expect(screen.getByTestId("main-header")).toBeVisible();
+  })
 });

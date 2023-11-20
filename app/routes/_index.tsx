@@ -1,6 +1,7 @@
 import type { MetaFunction } from "@remix-run/node";
 import type { ReactNode } from "react";
 import { css } from "styled-system/css";
+import PageHeader from "~/components/PageHeader";
 
 export const meta: MetaFunction = () => {
   return [
@@ -46,6 +47,7 @@ const BlackSectionParagraph = ({ children }: { children: ReactNode }) => {
 export default function Index() {
   return (
     <div>
+      <PageHeader />
       <Paragraph>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel
         lectus in ex dignissim scelerisque. Vestibulum pretium purus eu rhoncus
