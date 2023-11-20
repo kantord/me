@@ -1,0 +1,12 @@
+@layer utilities {
+
+  .text_red {
+    color: red
+    }
+
+  @layer compositions {
+    .textStyle_body {
+      font-family: Shantell Sans Variable
+        }
+    }
+}
