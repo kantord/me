@@ -7,27 +7,26 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
-import styles from './index.css'
+import styles from "./index.css";
 import { cssBundleHref } from "@remix-run/css-bundle";
 import shantellSans from "@fontsource-variable/shantell-sans/index.css";
 import stylesCss from "styled-system/styles.css";
 import PageWrapper from "./components/PageWrapper";
 import { css } from "styled-system/css";
 
-
 export const links: LinksFunction = () => [
-  { rel: 'stylesheet', href: styles },
-  { rel: 'stylesheet', href: shantellSans },
-  { rel: 'stylesheet', href: stylesCss },
-  ...(cssBundleHref ? [{ rel: 'stylesheet', href: cssBundleHref }] : []),
-]
+  { rel: "stylesheet", href: styles },
+  { rel: "stylesheet", href: shantellSans },
+  { rel: "stylesheet", href: stylesCss },
+  ...(cssBundleHref ? [{ rel: "stylesheet", href: cssBundleHref }] : []),
+];
 
 const backgroundStyles = css({
   backgroundColor: "colors.decorativeBackground",
-  backgroundImage: "radial-gradient(token(colors.decorativeBackgroundDots) 0.8px, token(colors.decorativeBackground) 0.8px)",
+  backgroundImage:
+    "radial-gradient(token(colors.decorativeBackgroundDots) 0.8px, token(colors.decorativeBackground) 0.8px)",
   backgroundSize: "18px 18px",
 });
-
 
 export default function App() {
   return (
@@ -46,6 +45,6 @@ export default function App() {
           <LiveReload />
         </PageWrapper>
       </body>
-    </html >
+    </html>
   );
 }
