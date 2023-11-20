@@ -60,6 +60,8 @@ export const textStyles = defineTextStyles({
       ...commonTextStyles,
       ...commonHeaderStyles,
       ...generateFontConfig(4, { marginTopSplit: 3 / 4 }),
+      marginTop: "0",
+      marginBottom: "0",
     },
   },
   heading2: {
