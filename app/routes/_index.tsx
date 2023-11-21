@@ -12,13 +12,16 @@ export const meta: MetaFunction = () => {
 
 const Paragraph = ({ children }: { children: ReactNode }) => {
   return (
-    <p className={css({ textStyle: "body" })}>
+    <p className={css({ textStyle: "body", overflow: "clip" })}>
       <span
-        className={css({ background: "token(colors.decorativeBackground)" })}
+        className={css({
+          backgroundColor: "white",
+          boxShadow: "0 0 0 9px white"
+        })}
       >
         {children}
       </span>
-    </p>
+    </p >
   );
 };
 

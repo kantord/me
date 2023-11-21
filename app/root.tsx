@@ -21,11 +21,12 @@ export const links: LinksFunction = () => [
   ...(cssBundleHref ? [{ rel: "stylesheet", href: cssBundleHref }] : []),
 ];
 
+// source https://heropatterns.com/
 const backgroundStyles = css({
-  backgroundColor: "colors.decorativeBackground",
+  backgroundColor: "#ffffff",
   backgroundImage:
-    "radial-gradient(token(colors.decorativeBackgroundDots) 0.8px, token(colors.decorativeBackground) 0.8px)",
-  backgroundSize: "18px 18px",
+    "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%239abf88' fill-opacity='1' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E\")",
+  backgroundSize: "3px 3px",
 });
 
 export default function App() {

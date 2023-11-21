@@ -52,6 +52,7 @@ export const textStyles = defineTextStyles({
       ...commonTextStyles,
       ...generateFontConfig(1),
       textJustify: "inter-word",
+      fontFamily: "sans-serif",
     },
   },
   heading1: {
