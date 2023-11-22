@@ -4,7 +4,7 @@
   "sideEffects": false,
   "type": "module",
   "scripts": {
-    "lint": "eslint .",
+    "lint": "prettier --check . && eslint .",
     "format": "prettier . --write && eslint . --fix",
     "prepare": "panda codegen",
     "test": "jest --watch",
