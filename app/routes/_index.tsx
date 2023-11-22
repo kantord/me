@@ -60,6 +60,7 @@ export default function Index() {
         vel pulvinar tellus. Maecenas felis urna, fringilla ut pellentesque a,
         gravida id elit. Quisque tempus arcu arcu.
       </Paragraph>
+      <Heading2>Lorem ipsum dolor sit amet</Heading2>
       <Paragraph>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel
         lectus in ex dignissim scelerisque. Vestibulum pretium purus eu rhoncus
@@ -101,7 +102,6 @@ export default function Index() {
         augue. Curabitur non turpis tristique, egestas velit id, pellentesque
         dolor. Suspendisse tempus gravida cursus.
       </Paragraph>
-      <Heading2>Lorem ipsum dolor sit amet</Heading2>
       <Paragraph>
         Suspendisse potenti. Aenean lacinia in ligula sit amet feugiat. Nunc
         ultrices vitae est sed ullamcorper. Nulla nunc nibh, gravida ac ante
