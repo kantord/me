@@ -16,12 +16,12 @@ const Paragraph = ({ children }: { children: ReactNode }) => {
       <span
         className={css({
           backgroundColor: "white",
-          boxShadow: "0 0 0 9px white"
+          boxShadow: "0 0 0 9px white",
         })}
       >
         {children}
       </span>
-    </p >
+    </p>
   );
 };
 
