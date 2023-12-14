@@ -27,7 +27,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@pandacss/dev": "^0.18.2",
+    "@pandacss/dev": "^0.22.0",
     "@remix-run/dev": "^2.2.0",
     "@remix-run/eslint-config": "^2.3.0",
     "@swc/core": "^1.3.96",
