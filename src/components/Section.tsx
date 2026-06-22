@@ -2,11 +2,13 @@ import type { ReactNode } from 'react'
 
 export function Section({ title, children }: { title: string; children: ReactNode }) {
   return (
-    <div>
-      {/* TODO: h2 float-left layout and h2~* sibling padding-left are still in cv.css.
-          Final goal: replace with CSS grid (h2 in one column, content in another). */}
-      <h2 className="text-[1.618rem] mb-[1.618rem] leading-none text-[#e16552] sticky top-0 font-heading">{title}</h2>
-      {children}
+    <div className="grid grid-cols-[8rem_1fr] gap-x-16 max-[850px]:block">
+      <h2 className="text-[1.618rem] mb-[1.618rem] leading-none text-[#e16552] sticky top-0 self-start font-heading text-right max-[850px]:text-left">
+        {title}
+      </h2>
+      <div className="mt-[1.618rem] mb-[2.427rem]">
+        {children}
+      </div>
     </div>
   )
 }

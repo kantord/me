@@ -1,5 +1,4 @@
 import { createFileRoute } from '@tanstack/react-router'
-import '../../cv/cv.css'
 import librelingoImg from '../../cv/librelingo.png'
 import justDashboardImg from '../../cv/just_dashboard.png'
 import emutoImg from '../../cv/emuto.png'
