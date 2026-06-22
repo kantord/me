@@ -4,7 +4,6 @@ import { CardRow, type ProjectCardData } from './ProjectCard'
 export function PetProjectsSection({ rows }: { rows: ProjectCardData[][] }) {
   return (
     <Section title="Pet projects">
-      <p className="my-[2rem]"> </p>
       {rows.map((row) => (
         <CardRow key={row[0].title} projects={row} />
       ))}

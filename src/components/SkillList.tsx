@@ -1,4 +1,4 @@
-type SkillLevel = 'strong' | 'em' | 'span' | 'plain'
+type SkillLevel = 'expert' | 'proficient' | 'familiar' | 'plain'
 
 export interface Skill {
   name: string
@@ -8,9 +8,9 @@ export interface Skill {
 const itemClass = 'inline-block mx-[0.2rem] mb-2 leading-[1.2] py-[0.15rem] px-[0.3rem] bg-[#e9f0f3] rounded-[0.2rem]'
 
 function SkillItem({ name, level }: Skill) {
-  if (level === 'strong') return <li className={itemClass}><strong>{name}</strong></li>
-  if (level === 'em') return <li className={itemClass}><em className="text-[0.9rem] font-semibold not-italic">{name}</em></li>
-  if (level === 'span') return <li className={itemClass}><span className="text-[0.8rem]">{name}</span></li>
+  if (level === 'expert') return <li className={itemClass}><strong>{name}</strong></li>
+  if (level === 'proficient') return <li className={itemClass}><em className="text-[0.9rem] font-semibold not-italic">{name}</em></li>
+  if (level === 'familiar') return <li className={itemClass}><span className="text-[0.8rem]">{name}</span></li>
   return <li className={itemClass}>{name}</li>
 }
 

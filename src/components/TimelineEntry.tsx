@@ -11,11 +11,22 @@ export interface TimelineEntryData {
   projects?: TimelineProject[]
 }
 
+const MONTHS: Record<string, string> = {
+  Jan: '01', Feb: '02', Mar: '03', Apr: '04', May: '05', Jun: '06',
+  Jul: '07', Aug: '08', Sep: '09', Oct: '10', Nov: '11', Dec: '12',
+}
+
+function toDatetime(date: string): string | undefined {
+  const [year, month] = date.split(' ')
+  const monthNum = MONTHS[month]
+  return monthNum ? `${year}-${monthNum}` : undefined
+}
+
 function TimePeriod({ start, end }: { start: string; end: string }) {
   return (
     <span className="text-[0.8rem] font-normal absolute h-full inline-block left-[-4rem] w-16 text-right max-[850px]:!mt-8 max-[850px]:h-[3em] max-[850px]:bg-[#f9f9f9] max-[850px]:z-[1000] max-[500px]:-left-8 max-[500px]:mt-4">
-      <span className="inline-block">{start}</span>
-      <span className="inline-block">{end}</span>
+      <time dateTime={toDatetime(start)} className="inline-block">{start}</time>
+      <time dateTime={toDatetime(end)} className="inline-block">{end}</time>
     </span>
   )
 }
@@ -28,7 +39,7 @@ export function TimelineEntry({ company, start, end, description, projects }: Ti
       </p>
       {description && <p className="m-0 text-[1rem]">{description}</p>}
       {projects && (
-        <ul className="mt-[0.8em]">
+        <ol className="mt-[0.8em]">
           {projects.map((project) => (
             <li
               key={project.title}
@@ -38,7 +49,7 @@ export function TimelineEntry({ company, start, end, description, projects }: Ti
               <p className="m-0 text-[1rem]">{project.description}</p>
             </li>
           ))}
-        </ul>
+        </ol>
       )}
     </li>
   )
