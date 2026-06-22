@@ -28,7 +28,7 @@ export function TimelineEntry({ company, start, end, description, projects }: Ti
       </p>
       {description && <p>{description}</p>}
       {projects && (
-        <ul>
+        <ul className="mt-[0.8em]">
           {projects.map((project) => (
             <li key={project.title}>
               <p>{project.title}</p>
