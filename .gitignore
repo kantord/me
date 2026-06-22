@@ -4,3 +4,10 @@ node_modules
 /build
 /public/build
 .env
+
+/cv/_inline_css.html
+/cv/index.html
+/cv/cv_daniel_kantor_developer.pdf
+
+/.next
+next-env.d.ts
