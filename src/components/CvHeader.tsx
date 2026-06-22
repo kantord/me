@@ -3,8 +3,8 @@ import pdfSvg from '../../cv/pdf.svg'
 export function CvHeader() {
   return (
     <>
-      <h1>
-        Dániel Kántor <span>developer</span>
+      <h1 className="text-[2.618rem] mt-[2.618rem] mb-[5.5rem] max-[700px]:mb-[2.618rem] leading-none text-[#e16552] font-heading">
+        Dániel Kántor <span className="text-[0.5em] block text-[#7c9fb0] text-right w-[8.82rem] mb-[-1em]">developer</span>
       </h1>
       <p>
         <a
