@@ -25,7 +25,7 @@ function ProjectCard({ href, image, title, description }: ProjectCardData) {
 
 export function CardRow({ projects }: { projects: ProjectCardData[] }) {
   return (
-    <div className="-mt-4 ml-2">
+    <div className="mt-4 ml-2">
       <ul className="flex">
         {projects.map((project) => (
           <ProjectCard key={project.title} {...project} />
